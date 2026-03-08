@@ -1,0 +1,63 @@
+.proceduresSection {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.category {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 30px 20px;
+  border: 1px solid #edf1f5;
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #e5e7eb;
+  color: #4b5565;
+  font-size: 1rem;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

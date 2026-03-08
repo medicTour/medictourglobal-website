@@ -1,0 +1,922 @@
+{
+  "TopBar": {
+    "whatsapp": "WhatsApp",
+    "call": "Appelez-nous",
+    "email": "Envoyez-nous un email",
+    "language": "Langue"
+  },
+  "Nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "treatments": "Traitements",
+    "journey": "Parcours Patient",
+    "regions": "Régions Mondiales",
+    "resources": "Ressources",
+    "contact": "Contact",
+    "regionsMenu": {
+      "africa": "Afrique",
+      "uk": "Royaume-Uni",
+      "uae": "Émirats Arabes Unis"
+    }
+  },
+  "Hero": {
+    "cta": "Commencer votre demande",
+    "slide1": {
+      "small": "Accompagnement des patients internationaux",
+      "title1": "Des soins médicaux",
+      "title2": "en toute confiance",
+      "subtitle": "De votre première demande jusqu’à votre retour chez vous, nous coordonnons chaque étape avec clarté et attention."
+    },
+    "slide2": {
+      "small": "Des soins qui vous comprennent",
+      "title1": "Traitement personnalisé",
+      "title2": "avec une attention humaine",
+      "subtitle": "Nous vous mettons en relation avec des spécialistes reconnus tout en garantissant confort, transparence et soutien tout au long de votre parcours."
+    },
+    "slide3": {
+      "small": "Réseau médical international fiable",
+      "title1": "Accédez aux meilleurs médecins",
+      "title2": "au-delà des frontières",
+      "subtitle": "Des hôpitaux partenaires et des équipes médicales expérimentées offrant des solutions de traitement sûres et avancées."
+    }
+  },
+  "Trust": {
+    "title": "Pourquoi les patients choisissent MedicTour Global",
+    "items": {
+      "care": {
+        "title": "Coordination de soins personnalisée",
+        "description": "Chaque parcours médical est unique. Nos coordinateurs vous accompagnent de l’examen médical jusqu’au voyage et à la récupération."
+      },
+      "specialists": {
+        "title": "Spécialistes expérimentés",
+        "description": "Nous collaborons avec des médecins qualifiés et des spécialistes reconnus internationalement dans les principaux hôpitaux en Inde."
+      },
+      "facilities": {
+        "title": "Installations médicales avancées",
+        "description": "Accédez à des hôpitaux modernes équipés de technologies médicales avancées et respectant des normes internationales."
+      },
+      "ethics": {
+        "title": "Conseils éthiques et transparents",
+        "description": "Communication médicale claire, orientation honnête et décisions centrées sur le patient à chaque étape."
+      }
+    }
+  },
+  "Treatments": {
+    "title": "Traitements médicaux courants",
+    "subtitle": "Aider les patients internationaux à accéder à des spécialistes de confiance pour les procédures essentielles.",
+    "items": [
+      {
+        "title": "Chirurgie cardiaque",
+        "desc": "Procédures cardiaques avancées réalisées par des cardiologues expérimentés."
+      },
+      {
+        "title": "Chirurgie orthopédique",
+        "desc": "Remplacement articulaire et soins orthopédiques avec techniques chirurgicales modernes."
+      },
+      {
+        "title": "Traitement du cancer",
+        "desc": "Soins oncologiques complets avec options thérapeutiques avancées."
+      },
+      {
+        "title": "Chirurgie esthétique",
+        "desc": "Procédures esthétiques sûres et personnalisées réalisées par des chirurgiens qualifiés."
+      },
+      {
+        "title": "Traitement de la fertilité",
+        "desc": "FIV et traitements de procréation assistée par des spécialistes expérimentés."
+      },
+      {
+        "title": "Transplantation d'organes",
+        "desc": "Programmes de transplantation hautement spécialisés avec des équipes médicales expertes."
+      }
+    ]
+  },
+  "Journey": {
+    "sectionTitle": "Votre Parcours de Traitement",
+    "sectionSubtitle": "Un processus clair et guidé conçu pour accompagner les patients internationaux à chaque étape de leur voyage médical.",
+    "steps": [
+      {
+        "title": "Envoyer une Demande",
+        "description": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe. Nous examinons votre cas de manière confidentielle."
+      },
+      {
+        "title": "Évaluation Médicale",
+        "description": "Nos médecins partenaires analysent votre dossier et proposent des avis spécialisés et des options de traitement."
+      },
+      {
+        "title": "Planification du Traitement",
+        "description": "Nous préparons un plan clair incluant l'hôpital recommandé, le coût estimé et la durée du séjour."
+      },
+      {
+        "title": "Voyage et Admission",
+        "description": "Notre équipe vous accompagne pour le voyage, l'accueil à l'aéroport, l'admission à l'hôpital et l'hébergement."
+      },
+      {
+        "title": "Récupération et Suivi",
+        "description": "Après le traitement, nous coordonnons la récupération et les consultations de suivi avec les médecins."
+      }
+    ]
+  },
+  "CostComparison": {
+    "title": "Comparaison des coûts de traitement",
+    "subtitle": "Comparez les coûts typiques des traitements selon les régions et comprenez la valeur des soins en Inde.",
+    "ctaText": "Vous voulez connaître le coût exact de votre traitement ?",
+    "ctaButton": "Commencez votre demande",
+    "treatments": [
+      {
+        "name": "Pontage cardiaque",
+        "us": "$120,000",
+        "uk": "£70,000",
+        "eu": "€65,000",
+        "india": "$7,000"
+      },
+      {
+        "name": "Remplacement du genou",
+        "us": "$45,000",
+        "uk": "£18,000",
+        "eu": "€16,000",
+        "india": "$5,000"
+      },
+      {
+        "name": "Remplacement de la hanche",
+        "us": "$40,000",
+        "uk": "£16,000",
+        "eu": "€14,000",
+        "india": "$4,500"
+      },
+      {
+        "name": "Chirurgie de la colonne vertébrale",
+        "us": "$90,000",
+        "uk": "£50,000",
+        "eu": "€45,000",
+        "india": "$8,000"
+      },
+      {
+        "name": "Traitement FIV",
+        "us": "$25,000",
+        "uk": "£12,000",
+        "eu": "€10,000",
+        "india": "$3,500"
+      }
+    ]
+  },
+  "Regions": {
+    "title": "Régions mondiales que nous servons",
+    "subtitle": "Nous accompagnons les patients internationaux avec une coordination médicale et une assistance de voyage personnalisée.",
+    "items": [
+      {
+        "title": "Afrique",
+        "description": "Soutien aux patients de toute l'Afrique recherchant des soins médicaux avancés et abordables en Inde.",
+        "button": "Explorer l'Afrique",
+        "slug": "africa"
+      },
+      {
+        "title": "Royaume-Uni",
+        "description": "Aider les patients du Royaume-Uni à accéder à des traitements spécialisés avec des délais d'attente plus courts et des avantages en termes de coûts.",
+        "button": "Explorer le Royaume-Uni",
+        "slug": "uk"
+      },
+      {
+        "title": "Émirats Arabes Unis",
+        "description": "Coordination des voyages médicaux pour les patients des Émirats recherchant des soins experts dans les principaux hôpitaux indiens.",
+        "button": "Explorer les Émirats",
+        "slug": "uae"
+      }
+    ],
+    "africa": {
+      "hero": {
+        "title": "Traitement médical en Inde pour les patients d'Afrique",
+        "subtitle": "Soins médicaux avancés avec un accompagnement fiable pour les patients en provenance d'Afrique.",
+        "description": "MedicTour Global accompagne les patients de toute l'Afrique qui recherchent des soins spécialisés en Inde. De l'évaluation médicale à l'assistance au voyage et au soutien post-opératoire, notre équipe coordonne chaque étape de votre parcours de soins.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "trust": {
+        "title": "Pourquoi de nombreux patients d'Afrique choisissent l'Inde pour leurs soins",
+        "affordable": {
+          "title": "Soins avancés à coût abordable",
+          "desc": "Accédez à des soins de classe mondiale dans des hôpitaux modernes à des coûts nettement inférieurs à ceux de nombreux systèmes de santé internationaux."
+        },
+        "specialists": {
+          "title": "Médecins spécialistes expérimentés",
+          "desc": "Consultez des médecins et chirurgiens hautement expérimentés exerçant dans les principaux hôpitaux indiens."
+        },
+        "hospitals": {
+          "title": "Hôpitaux modernes et accrédités",
+          "desc": "Hôpitaux partenaires équipés de technologies médicales avancées et de normes de soins reconnues internationalement."
+        },
+        "support": {
+          "title": "Coordination personnalisée du patient",
+          "desc": "Notre équipe vous guide à chaque étape — de la consultation médicale à la planification du voyage, en passant par l'admission à l'hôpital et la récupération."
+        }
+      },
+      "treatments": {
+        "title": "Traitements courants pour les patients internationaux",
+        "items": [
+          {
+            "title": "Chirurgie cardiaque",
+            "desc": "Procédures cardiaques complexes réalisées par des cardiologues expérimentés utilisant des techniques chirurgicales avancées."
+          },
+          {
+            "title": "Chirurgie orthopédique",
+            "desc": "Remplacements articulaires et procédures orthopédiques conçus pour restaurer la mobilité et améliorer la qualité de vie."
+          },
+          {
+            "title": "Traitement du cancer",
+            "desc": "Soins oncologiques complets incluant chirurgie, chimiothérapie et approches thérapeutiques avancées."
+          },
+          {
+            "title": "Chirurgie esthétique",
+            "desc": "Procédures esthétiques personnalisées réalisées par des chirurgiens qualifiés dans des établissements médicaux accrédités."
+          },
+          {
+            "title": "Traitement de la fertilité",
+            "desc": "Soins de FIV et de procréation assistée soutenus par des spécialistes de la fertilité expérimentés et des laboratoires modernes."
+          },
+          {
+            "title": "Transplantation d'organes",
+            "desc": "Programmes de transplantation hautement spécialisés soutenus par des équipes médicales multidisciplinaires."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Soins abordables comparés à de nombreux pays",
+        "subtitle": "L'Inde offre des soins de haute qualité à des coûts significativement inférieurs tout en maintenant des normes médicales modernes et des soins spécialisés de qualité."
+      },
+      "hospitals": {
+        "title": "Hôpitaux de confiance et médecins expérimentés",
+        "desc": "MedicTour Global travaille avec les principaux hôpitaux indiens qui offrent des installations de traitement avancées, des spécialistes expérimentés et des services dédiés aux patients internationaux."
+      },
+      "testimonials": {
+        "title": "Témoignages de patients internationaux",
+        "items": [
+          {
+            "name": "John – Kenya",
+            "text": "Tout le processus était bien organisé. De la première consultation à mon traitement et à ma récupération, l'équipe m'a guidé à chaque étape."
+          },
+          {
+            "name": "Mary – Nigeria",
+            "text": "Les installations de l'hôpital étaient excellentes et les médecins ont expliqué chaque chose clairement. Je me suis sentie confiante tout au long de mon traitement."
+          },
+          {
+            "name": "Ahmed – Tanzanie",
+            "text": "Voyager pour un traitement était nouveau pour moi, mais l'équipe de coordination a rendu le processus fluide et sans stress."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Assistance voyage et traitement",
+        "items": [
+          "Conseils pour le visa médical et la planification du voyage",
+          "Accueil à l'aéroport et soutien au transport local",
+          "Aide à l'hébergement près des hôpitaux",
+          "Coordination avec les hôpitaux et les médecins"
+        ]
+      }
+    },
+    "uk": {
+      "hero": {
+        "title": "Traitement médical en Inde pour les patients du Royaume-Uni",
+        "subtitle": "Accédez à des spécialistes expérimentés et à des traitements avancés sans longs délais d'attente.",
+        "description": "Certains patients du Royaume-Uni explorent des options de traitement à l'étranger lorsque les délais d'attente pour certaines procédures s'allongent ou que les coûts des soins privés sont élevés. MedicTour Global aide les patients à entrer en contact avec des spécialistes expérimentés et des hôpitaux modernes en Inde, avec un accompagnement clair tout au long du parcours de soins.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "trust": {
+        "title": "Pourquoi certains patients britanniques choisissent l'Inde pour leurs soins",
+        "affordable": {
+          "title": "Coûts de traitement transparents",
+          "desc": "De nombreuses procédures peuvent être réalisées à des coûts nettement inférieurs à ceux des soins de santé privés au Royaume-Uni."
+        },
+        "specialists": {
+          "title": "Médecins spécialistes expérimentés",
+          "desc": "Consultez des chirurgiens et spécialistes hautement expérimentés travaillant dans des hôpitaux de renommée internationale."
+        },
+        "hospitals": {
+          "title": "Hôpitaux modernes et accrédités",
+          "desc": "Hôpitaux partenaires équipés de technologies médicales avancées et de normes de soins reconnues internationalement."
+        },
+        "support": {
+          "title": "Coordination médicale personnalisée",
+          "desc": "Notre équipe vous soutient tout au long du processus — de la consultation médicale à la planification du traitement, en passant par la coordination du voyage et la récupération."
+        }
+      },
+      "treatments": {
+        "title": "Traitements courants recherchés par les patients internationaux",
+        "items": [
+          {
+            "title": "Chirurgie cardiaque",
+            "desc": "Procédures cardiaques avancées réalisées par des cardiologues expérimentés utilisant des techniques chirurgicales modernes."
+          },
+          {
+            "title": "Chirurgie orthopédique",
+            "desc": "Remplacements articulaires et procédures orthopédiques conçus pour restaurer la mobilité et améliorer la qualité de vie."
+          },
+          {
+            "title": "Traitement du cancer",
+            "desc": "Soins oncologiques complets incluant chirurgie, chimiothérapie et thérapies avancées contre le cancer."
+          },
+          {
+            "title": "Chirurgie esthétique",
+            "desc": "Procédures esthétiques sûres et personnalisées réalisées par des chirurgiens qualifiés."
+          },
+          {
+            "title": "Traitement de la fertilité",
+            "desc": "Traitements modernes de FIV et de procréation assistée soutenus par des spécialistes de la fertilité expérimentés."
+          },
+          {
+            "title": "Transplantation d'organes",
+            "desc": "Programmes de transplantation spécialisés soutenus par des équipes médicales multidisciplinaires expérimentées."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Soins abordables comparés aux coûts des soins de santé privés",
+        "subtitle": "L'Inde propose des traitements médicaux avancés avec des spécialistes expérimentés à une fraction du coût par rapport à de nombreux prestataires de soins privés."
+      },
+      "hospitals": {
+        "title": "Hôpitaux de confiance et médecins expérimentés",
+        "desc": "MedicTour Global travaille avec les principaux hôpitaux indiens qui offrent des installations modernes, des chirurgiens expérimentés et des services dédiés aux patients internationaux."
+      },
+      "testimonials": {
+        "title": "Témoignages de patients internationaux",
+        "items": [
+          {
+            "name": "James – Londres",
+            "text": "Le processus de traitement a été expliqué clairement et les installations de l'hôpital étaient excellentes. Tout était bien coordonné."
+          },
+          {
+            "name": "Sarah – Manchester",
+            "text": "J'ai apprécié la communication claire et le soutien tout au long de mon parcours de soins."
+          },
+          {
+            "name": "David – Birmingham",
+            "text": "Les médecins étaient expérimentés et l'équipe de coordination a rendu le voyage pour soins beaucoup plus facile."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Assistance voyage et traitement",
+        "items": [
+          "Conseils pour la planification du voyage et les documents médicaux",
+          "Accueil à l'aéroport et soutien au transport local",
+          "Aide à l'hébergement près des hôpitaux",
+          "Coordination avec les hôpitaux et les spécialistes"
+        ]
+      }
+    },
+    "uae": {
+      "hero": {
+        "title": "Traitement médical en Inde pour les patients des Émirats Arabes Unis",
+        "subtitle": "Accédez à des spécialistes expérimentés et à des options de traitement avancées.",
+        "description": "Les patients des Émirats explorent parfois des options de traitement internationales pour des procédures spécialisées, des seconds avis médicaux ou des soins personnalisés. MedicTour Global met les patients en relation avec des médecins expérimentés et des hôpitaux de renommée internationale en Inde, tout en soutenant chaque étape du parcours de soins.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "trust": {
+        "title": "Pourquoi les patients des Émirats choisissent l'Inde pour leurs soins",
+        "affordable": {
+          "title": "Planification de traitement transparente",
+          "desc": "Des plans de traitement clairs et des estimations de coûts permettent aux patients de prendre des décisions médicales éclairées avant de voyager."
+        },
+        "specialists": {
+          "title": "Médecins spécialistes expérimentés",
+          "desc": "Consultez des médecins et spécialistes d'expérience internationale dans les principaux hôpitaux indiens."
+        },
+        "hospitals": {
+          "title": "Hôpitaux modernes et accrédités",
+          "desc": "Accédez à des hôpitaux équipés de technologies médicales avancées et de normes de soins reconnues internationalement."
+        },
+        "support": {
+          "title": "Coordination personnalisée du patient",
+          "desc": "Nos coordinateurs internationaux vous aident pour la planification des consultations, la coordination hospitalière et l'organisation du voyage."
+        }
+      },
+      "treatments": {
+        "title": "Traitements courants recherchés par les patients internationaux",
+        "items": [
+          {
+            "title": "Chirurgie cardiaque",
+            "desc": "Procédures cardiaques avancées réalisées par des cardiologues expérimentés utilisant des techniques chirurgicales modernes."
+          },
+          {
+            "title": "Chirurgie orthopédique",
+            "desc": "Remplacements articulaires et procédures orthopédiques conçus pour restaurer la mobilité et améliorer la qualité de vie."
+          },
+          {
+            "title": "Traitement du cancer",
+            "desc": "Soins oncologiques complets soutenus par des diagnostics avancés et des spécialistes expérimentés."
+          },
+          {
+            "title": "Chirurgie esthétique",
+            "desc": "Procédures esthétiques sûres réalisées par des chirurgiens qualifiés avec un accent sur des résultats naturels."
+          },
+          {
+            "title": "Traitement de la fertilité",
+            "desc": "Traitements modernes de FIV et de procréation assistée soutenus par des spécialistes de la fertilité expérimentés."
+          },
+          {
+            "title": "Transplantation d'organes",
+            "desc": "Programmes de transplantation hautement spécialisés coordonnés par des équipes multidisciplinaires expérimentées."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Coûts de traitement transparents et compétitifs",
+        "subtitle": "Les patients explorent souvent les traitements à l'étranger pour accéder à des procédures spécialisées avec des prix transparents et des médecins expérimentés."
+      },
+      "hospitals": {
+        "title": "Hôpitaux de confiance et spécialistes expérimentés",
+        "desc": "MedicTour Global travaille avec les principaux hôpitaux indiens réputés pour leurs infrastructures médicales avancées et leurs équipes médicales expérimentées."
+      },
+      "testimonials": {
+        "title": "Témoignages de patients internationaux",
+        "items": [
+          {
+            "name": "Ahmed – Dubaï",
+            "text": "Le processus était organisé de manière très professionnelle et les médecins étaient hautement expérimentés."
+          },
+          {
+            "name": "Fatima – Abu Dhabi",
+            "text": "Tout, de la consultation à la récupération, a été clairement expliqué et bien coordonné."
+          },
+          {
+            "name": "Omar – Sharjah",
+            "text": "Les installations de l'hôpital et l'équipe médicale étaient excellentes et l'expérience a été très rassurante."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Assistance voyage et traitement",
+        "items": [
+          "Coordination des consultations médicales",
+          "Conseils pour le voyage et l'hébergement",
+          "Accueil à l'aéroport et soutien à l'admission à l'hôpital",
+          "Coordination du suivi post-traitement"
+        ]
+      }
+    }
+  },
+  "Resources": {
+    "title": "Ressources de Voyage Médical",
+    "subtitle": "Informations utiles pour vous guider à chaque étape de votre parcours médical.",
+    "items": [
+      {
+        "title": "Préparer son voyage médical",
+        "description": "Conseils essentiels pour les patients internationaux planifiant un traitement à l'étranger.",
+        "button": "Lire la suite",
+        "slug": "medical-travel-preparation"
+      },
+      {
+        "title": "Comprendre les options de traitement",
+        "description": "Découvrez les différentes procédures et comment choisir le bon traitement.",
+        "button": "Lire la suite",
+        "slug": "treatment-options"
+      },
+      {
+        "title": "Récupération et soins après traitement",
+        "description": "Comprendre ce qui se passe après le traitement et comment préparer la récupération.",
+        "button": "Lire la suite",
+        "slug": "recovery-aftercare"
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Commencez votre parcours médical",
+    "subtitle": "Notre équipe internationale accompagnera votre traitement, l'organisation du voyage et la coordination hospitalière.",
+    "button": "Commencer votre demande"
+  },
+  "Footer": {
+    "about": "Medictour Global accompagne les patients internationaux recherchant des traitements médicaux fiables et abordables en Inde.",
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "home": "Accueil",
+      "about": "À propos",
+      "treatments": "Traitements",
+      "journey": "Parcours Patient",
+      "regions": "Régions Mondiales",
+      "resources": "Ressources",
+      "contact": "Contact"
+    },
+    "treatments": {
+      "title": "Traitements",
+      "cardiac": "Chirurgie Cardiaque",
+      "orthopedic": "Chirurgie Orthopédique",
+      "spine": "Chirurgie de la Colonne",
+      "ivf": "Traitement FIV",
+      "transplant": "Greffe d'Organes"
+    },
+    "regions": {
+      "title": "Régions Mondiales",
+      "africa": "Afrique",
+      "uk": "Royaume-Uni",
+      "uae": "Émirats Arabes Unis"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Téléphone",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    },
+    "copyright": "© 2026 Medictour Global. Tous droits réservés."
+  },
+  "About": {
+    "hero": {
+      "title": "Guider les Patients Internationaux Vers des Soins Médicaux de Confiance",
+      "subtitle": "Medictour Global aide les patients internationaux à accéder à des hôpitaux de confiance et à des spécialistes expérimentés en Inde, tout en coordonnant le voyage, le traitement et le soutien au rétablissement avec soin et clarté."
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "text": "De nombreux patients internationaux ont du mal à trouver des informations médicales fiables et des hôpitaux dignes de confiance lorsqu'ils cherchent un traitement à l'étranger. Medictour Global a été fondée pour combler cette lacune en aidant les patients à entrer en contact avec des médecins expérimentés et des hôpitaux accrédités en Inde, tout en bénéficiant de conseils clairs tout au long de leur parcours médical."
+    },
+    "mission": {
+      "missionTitle": "Notre Mission",
+      "missionText": "Fournir un soutien transparent, coordonné et compatissant aux voyageurs médicaux internationaux.",
+      "visionTitle": "Notre Vision",
+      "visionText": "Devenir un partenaire mondial de confiance pour les patients recherchant des soins médicaux de haute qualité à l'étranger.",
+      "valuesTitle": "Nos Valeurs",
+      "values": {
+        "transparency": "Transparence",
+        "patientFirst": "Soins centrés sur le patient",
+        "ethical": "Coordination éthique",
+        "trusted": "Partenariats médicaux de confiance"
+      }
+    },
+    "trust": {
+      "title": "Pourquoi les Patients Nous Font Confiance",
+      "hospitals": {
+        "title": "Hôpitaux Certifiés",
+        "desc": "Nous collaborons avec des hôpitaux accrédités, reconnus pour leurs normes de qualité et leurs équipes médicales expérimentées."
+      },
+      "specialists": {
+        "title": "Spécialistes Expérimentés",
+        "desc": "Notre réseau comprend des médecins formés à l'international dans les principaux hôpitaux indiens."
+      },
+      "transparency": {
+        "title": "Communication Transparente",
+        "desc": "Plans de traitement clairs, estimations de coûts et communication ouverte dès la première demande."
+      },
+      "support": {
+        "title": "Accompagnement Personnalisé",
+        "desc": "Des coordinateurs dédiés vous guident à chaque étape, de l'évaluation médicale au rétablissement."
+      }
+    },
+    "process": {
+      "title": "Comment Nous Travaillons",
+      "inquiry": {
+        "title": "Demande",
+        "desc": "Partagez vos besoins médicaux et vos rapports avec notre équipe."
+      },
+      "review": {
+        "title": "Évaluation Médicale",
+        "desc": "Nos spécialistes évaluent votre cas et suggèrent des options de traitement."
+      },
+      "planning": {
+        "title": "Planification du Traitement",
+        "desc": "Nous fournissons un plan clair avec le choix de l'hôpital et une estimation des coûts."
+      },
+      "travel": {
+        "title": "Coordination du Voyage",
+        "desc": "Nous aidons pour le visa, le voyage et les formalités d'admission à l'hôpital."
+      },
+      "recovery": {
+        "title": "Récupération et Suivi",
+        "desc": "Soutien pendant la récupération et consultations de suivi après le traitement."
+      }
+    },
+    "global": {
+      "title": "Focus Patient International",
+      "subtitle": "Soutien aux patients d'Afrique, du Royaume-Uni et des Émirats Arabes Unis.",
+      "africa": {
+        "title": "Afrique",
+        "desc": "Soutien aux patients de toute l'Afrique recherchant des soins médicaux avancés et abordables en Inde."
+      },
+      "uk": {
+        "title": "Royaume-Uni",
+        "desc": "Aider les patients britanniques à accéder à des traitements spécialisés avec des délais d'attente plus courts et des avantages en termes de coûts."
+      },
+      "uae": {
+        "title": "Émirats Arabes Unis",
+        "desc": "Coordination des voyages médicaux pour les patients des Émirats recherchant des soins experts dans les principaux hôpitaux indiens."
+      }
+    },
+    "cta": {
+      "title": "Parlez à Notre Équipe de Voyage Médical",
+      "subtitle": "Nos coordinateurs patients sont prêts à vous guider dans les options de traitement et la planification du voyage.",
+      "button": "Commencez votre demande"
+    }
+  },
+  "TreatmentsHero": {
+    "title": "Traitements médicaux que nous soutenons",
+    "subtitle": "Mettre en relation les patients internationaux avec des spécialistes expérimentés et des hôpitaux de confiance en Inde."
+  },
+  "TreatmentsIntro": {
+    "title": "Traitements médicaux spécialisés",
+    "description": "MedicTour Global travaille avec des hôpitaux de confiance et des spécialistes expérimentés en Inde. Nous aidons les patients internationaux à accéder à des options de traitement avancées tout en fournissant des conseils clairs, une planification transparente et un soutien personnalisé tout au long de leur parcours médical."
+  },
+  "TreatmentsCategories": {
+    "title": "Domaines de traitement",
+    "items": [
+      {
+        "title": "Chirurgie cardiaque",
+        "desc": "Procédures cardiaques avancées réalisées par des cardiologues expérimentés utilisant des techniques chirurgicales modernes."
+      },
+      {
+        "title": "Chirurgie orthopédique",
+        "desc": "Remplacement articulaire et soins orthopédiques axés sur la restauration de la mobilité et la récupération à long terme."
+      },
+      {
+        "title": "Traitement du cancer",
+        "desc": "Soins oncologiques complets soutenus par des outils de diagnostic modernes et des approches thérapeutiques avancées."
+      },
+      {
+        "title": "Chirurgie esthétique",
+        "desc": "Procédures esthétiques sûres et personnalisées réalisées par des chirurgiens plasticiens qualifiés."
+      },
+      {
+        "title": "Traitement de la fertilité",
+        "desc": "Traitements de FIV et de procréation assistée soutenus par des spécialistes de la fertilité expérimentés et des laboratoires modernes."
+      },
+      {
+        "title": "Transplantation d'organes",
+        "desc": "Programmes de transplantation hautement spécialisés avec des équipes chirurgicales expérimentées et des installations modernes."
+      }
+    ]
+  },
+  "FeaturedProcedures": {
+    "title": "Procédures courantes que nous coordonnons",
+    "cardiac": [
+      "Pontage aorto-coronarien",
+      "Remplacement valvulaire cardiaque",
+      "Angioplastie"
+    ],
+    "orthopedic": [
+      "Prothèse totale du genou",
+      "Prothèse de la hanche",
+      "Chirurgie de la colonne vertébrale"
+    ],
+    "fertility": [
+      "Traitement FIV",
+      "Procédure ICSI",
+      "Congélation d'ovules"
+    ]
+  },
+  "TreatmentSupport": {
+    "title": "Comment nous soutenons votre traitement",
+    "items": [
+      "Examen de vos rapports médicaux avec des spécialistes expérimentés",
+      "Mise en relation avec des hôpitaux et médecins de confiance",
+      "Préparation de plans de traitement clairs et d'estimations de coûts",
+      "Assistance à la planification du voyage et à l'admission à l'hôpital",
+      "Soutien à la récupération et consultations de suivi"
+    ]
+  },
+  "Hospitals": {
+    "title": "Hôpitaux et spécialistes de confiance",
+    "desc": "Nous travaillons avec des hôpitaux reconnus internationalement et des spécialistes médicaux expérimentés dans les principales villes médicales d'Inde."
+  },
+  "TreatmentCost": {
+    "title": "Traitement abordable sans compromis sur la qualité",
+    "desc": "L'Inde offre des traitements médicaux avancés à des coûts nettement inférieurs à ceux de nombreux pays occidentaux tout en maintenant des normes de soins élevées."
+  },
+  "TreatmentsCTA": {
+    "title": "Discutez de vos options de traitement",
+    "subtitle": "Partagez vos rapports médicaux avec notre équipe et recevez des conseils sur les options de traitement adaptées.",
+    "button": "Commencez votre demande"
+  },
+  "JourneyHero": {
+    "title": "Votre parcours de soins",
+    "subtitle": "Un processus clair et bienveillant conçu pour guider les patients internationaux à chaque étape de leur voyage médical."
+  },
+  "JourneyIntro": {
+    "title": "Une expérience de voyage médical accompagnée",
+    "desc": "Se rendre à l'étranger pour un traitement peut sembler complexe. MedicTour Global simplifie le processus en guidant les patients internationaux à chaque étape — de l'évaluation médicale et de la planification du traitement au soutien post-opératoire."
+  },
+  "JourneySteps": {
+    "title": "Votre parcours de soins",
+    "steps": [
+      {
+        "title": "Soumettre une demande",
+        "desc": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe pour que nous puissions évaluer votre cas."
+      },
+      {
+        "title": "Évaluation médicale",
+        "desc": "Des spécialistes examinent vos rapports et fournissent des avis d'experts ainsi que des options de traitement possibles."
+      },
+      {
+        "title": "Planification du traitement",
+        "desc": "Nous préparons un plan de traitement clair comprenant des recommandations d'hôpitaux, un coût estimé et la durée du séjour."
+      },
+      {
+        "title": "Voyage et admission",
+        "desc": "Notre équipe aide à organiser le voyage, l'accueil à l'aéroport, l'hébergement et l'admission à l'hôpital."
+      },
+      {
+        "title": "Récupération et suivi",
+        "desc": "Après le traitement, nous soutenons la planification de la récupération et coordonnons les consultations de suivi."
+      }
+    ]
+  },
+  "DoctorEvaluation": {
+    "title": "Évaluation médicale par des spécialistes",
+    "desc": "Vos rapports médicaux sont examinés par des médecins expérimentés de nos hôpitaux partenaires afin de déterminer les options de traitement les plus appropriées."
+  },
+  "TravelSupport": {
+    "title": "Soutien au voyage et à l'arrivée",
+    "desc": "Nous aidons à organiser l'accueil à l'aéroport, l'hébergement et l'admission à l'hôpital pour garantir une arrivée en douceur."
+  },
+  "HospitalCare": {
+    "title": "Soins hospitaliers et accompagnement",
+    "desc": "Nos hôpitaux partenaires disposent d'installations médicales modernes, de spécialistes expérimentés et d'équipes dédiées aux patients."
+  },
+  "RecoverySupport": {
+    "title": "Récupération et suivi post-traitement",
+    "desc": "Après le traitement, nous aidons à planifier la récupération et coordonnons les consultations de suivi avec vos médecins."
+  },
+  "PatientSafety": {
+    "title": "Sécurité du patient et transparence",
+    "desc": "Nous privilégions une communication claire, des conseils médicaux éthiques et une coordination avec des hôpitaux de confiance."
+  },
+  "JourneyFAQ": {
+    "title": "Questions fréquemment posées",
+    "questions": [
+      {
+        "q": "Combien de temps dure le processus de traitement ?",
+        "a": "Le calendrier dépend de l'état de santé et du plan de traitement recommandé. Notre équipe fournira une estimation claire lors de la planification."
+      },
+      {
+        "q": "Ai-je besoin d'un visa médical ?",
+        "a": "La plupart des patients internationaux ont besoin d'un visa médical pour se rendre en Inde. Notre équipe peut vous guider dans la procédure de demande."
+      },
+      {
+        "q": "Quelqu'un m'assistera-t-il à mon arrivée ?",
+        "a": "Oui, nous organisons l'accueil à l'aéroport et l'admission à l'hôpital pour assurer une arrivée sans encombre."
+      },
+      {
+        "q": "Puis-je voyager avec un membre de ma famille ?",
+        "a": "Absolument. Nous encourageons les patients à venir accompagnés pour bénéficier d'un soutien et pouvons vous aider avec les modalités d'hébergement."
+      }
+    ]
+  },
+  "JourneyCTA": {
+    "title": "Commencez votre parcours de soins",
+    "subtitle": "Partagez vos rapports médicaux avec notre équipe et recevez des conseils sur les options de traitement adaptées.",
+    "button": "Soumettre une demande"
+  },
+  "ResourcesHero": {
+    "title": "Ressources pour patients",
+    "subtitle": "Guides et informations utiles pour accompagner les patients internationaux qui planifient un traitement en Inde."
+  },
+  "ResourcesIntro": {
+    "title": "Informations pour les patients internationaux",
+    "desc": "Notre centre de ressources propose des guides et des informations pour aider les patients internationaux à comprendre les options de traitement, à préparer leur voyage médical et à se sentir en confiance tout au long de leur parcours."
+  },
+  "MedicalTravelGuides": {
+    "title": "Guides de voyage médical",
+    "items": [
+      "Comment fonctionne le tourisme médical en Inde",
+      "Planifier votre voyage médical",
+      "Comprendre les coûts des traitements à l'étranger",
+      "Choisir le bon hôpital"
+    ]
+  },
+  "TreatmentEducation": {
+    "title": "Informations sur les traitements",
+    "items": [
+      "Comprendre la chirurgie cardiaque",
+      "Aperçu de la pose d'une prothèse du genou",
+      "Guide du traitement FIV",
+      "Options de traitement du cancer"
+    ]
+  },
+  "PatientPreparation": {
+    "title": "Guides de préparation patient",
+    "items": [
+      "Documents nécessaires pour un voyage médical",
+      "Préparer vos rapports médicaux",
+      "Que emporter pour un voyage médical",
+      "Voyager avec un accompagnateur"
+    ]
+  },
+  "HospitalInformation": {
+    "title": "Informations sur les hôpitaux et les traitements",
+    "items": [
+      "Comprendre l'accréditation des hôpitaux",
+      "Services pour patients internationaux",
+      "Technologie médicale moderne en Inde"
+    ]
+  },
+  "Downloads": {
+    "title": "Téléchargements utiles",
+    "items": [
+      "Liste de préparation au voyage médical",
+      "Planificateur de voyage patient",
+      "Guide de préparation au traitement"
+    ]
+  },
+  "ResourcesFAQ": {
+    "title": "Questions fréquemment posées",
+    "questions": [
+      {
+        "q": "Combien de temps dois-je rester en Inde pour un traitement ?",
+        "a": "La durée dépend du type de traitement et du temps de récupération recommandé par votre médecin."
+      },
+      {
+        "q": "Puis-je emmener un accompagnateur pendant le traitement ?",
+        "a": "Oui, nous encourageons les patients à voyager avec un membre de leur famille ou un accompagnateur."
+      },
+      {
+        "q": "Comment partager mes rapports médicaux ?",
+        "a": "Vous pouvez soumettre vos rapports via notre formulaire de demande ou les envoyer par courriel à notre équipe de soins."
+      }
+    ]
+  },
+  "ResourcesCTA": {
+    "title": "Besoin d'aide pour comprendre vos options de traitement ?",
+    "subtitle": "Partagez vos rapports médicaux avec notre équipe et recevez des conseils sur les options de traitement possibles.",
+    "button": "Commencez votre demande"
+  },
+  "ContactHero": {
+    "title": "Commencez votre demande médicale",
+    "subtitle": "Partagez vos rapports médicaux et vos préoccupations thérapeutiques avec notre équipe soignante. Nous examinons chaque cas attentivement et vous guidons vers les options de traitement appropriées en Inde.",
+    "cta": "Commencer la demande"
+  },
+  "QuickContact": {
+    "whatsapp": "Discuter sur WhatsApp",
+    "email": "Envoyer un e-mail à l'équipe",
+    "responseTime": "Réponse sous 24h"
+  },
+  "InquiryIntro": {
+    "text": "Pour aider nos médecins à évaluer votre état, veuillez fournir des informations médicales de base. Toutes les informations partagées avec nous sont traitées de manière confidentielle."
+  },
+  "Form": {
+    "step1Title": "Coordonnées du patient",
+    "step2Title": "Informations médicales",
+    "step3Title": "Informations de voyage",
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone / WhatsApp",
+    "country": "Pays",
+    "age": "Âge",
+    "gender": "Genre",
+    "male": "Homme",
+    "female": "Femme",
+    "other": "Autre",
+    "select": "Sélectionner",
+    "treatment": "Traitement souhaité",
+    "cardiac": "Chirurgie cardiaque",
+    "orthopedic": "Chirurgie orthopédique",
+    "cancer": "Traitement du cancer",
+    "fertility": "Traitement de la fertilité",
+    "cosmetic": "Chirurgie esthétique",
+    "transplant": "Transplantation d'organes",
+    "condition": "Description de l'état médical",
+    "previousDiagnosis": "Diagnostic antérieur",
+    "previousTreatments": "Traitements antérieurs",
+    "timeline": "Calendrier de traitement souhaité",
+    "within1": "Dans 1 mois",
+    "within3": "Dans 3 mois",
+    "exploring": "Je me renseigne",
+    "visitedBefore": "Avez-vous déjà visité l'Inde ?",
+    "yes": "Oui",
+    "no": "Non",
+    "companion": "Voyagerez-vous avec un accompagnateur ?",
+    "additionalMessage": "Message complémentaire",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "submit": "Envoyer la demande médicale",
+    "submitting": "Envoi en cours...",
+    "nameMin": "Veuillez saisir votre nom complet tel qu'il figure dans vos dossiers médicaux.",
+    "nameInvalid": "Le nom ne doit contenir que des lettres et des espaces.",
+    "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+    "phoneMin": "Veuillez fournir un numéro de téléphone valide.",
+    "countryRequired": "Veuillez saisir votre pays.",
+    "ageInvalid": "Veuillez saisir un âge valide.",
+    "genderRequired": "Veuillez sélectionner votre genre.",
+    "treatmentRequired": "Veuillez sélectionner un traitement.",
+    "conditionMin": "Veuillez décrire brièvement votre état médical (au moins 30 caractères).",
+    "conditionMax": "La description ne doit pas dépasser 1000 caractères.",
+    "timelineRequired": "Veuillez sélectionner un calendrier.",
+    "visitedRequired": "Veuillez sélectionner une option.",
+    "companionRequired": "Veuillez sélectionner une option.",
+    "serverError": "Une erreur s'est produite. Veuillez réessayer.",
+    "successTitle": "Merci",
+    "successMessage": "Votre demande médicale a été reçue. Notre équipe examinera vos informations et vous répondra sous 24 heures.",
+    "returnHome": "Retour à l'accueil"
+  },
+  "Upload": {
+    "title": "Télécharger des rapports médicaux (facultatif)",
+    "info": "Téléchargez des rapports tels que diagnostics, examens ou recommandations médicales (PDF, JPG, PNG, ZIP, max 10 Mo).",
+    "chooseFiles": "Choisir des fichiers",
+    "sizeError": "La taille du fichier doit être inférieure à 10 Mo.",
+    "typeError": "Format de fichier non pris en charge. Veuillez télécharger du PDF, JPG, PNG ou ZIP."
+  },
+  "PrivacyNotice": {
+    "text": "Toutes les informations médicales partagées avec MedicTour Global sont traitées avec une confidentialité stricte et utilisées uniquement à des fins d'évaluation médicale."
+  },
+  "WhatsAppCTA": {
+    "title": "Vous préférez parler directement à notre équipe ?",
+    "button": "Discuter sur WhatsApp"
+  },
+  "FinalReassurance": {
+    "title": "Notre équipe de soins est là pour vous accompagner",
+    "text": "Chaque demande est examinée attentivement par notre équipe. Nous guidons les patients pas à pas pour les aider à comprendre les options de traitement et à planifier leur voyage médical en toute sécurité."
+  }
+}

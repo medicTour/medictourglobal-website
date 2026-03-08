@@ -1,0 +1,163 @@
+.formSection {
+  padding: 40px 0 60px;
+  background-color: #ffffff;
+}
+
+.stepIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #4b5565;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.step.active {
+  background: var(--color-accent);
+  color: white;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: #e5e7eb;
+  margin: 0 10px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stepContent {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.stepContent h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #1f2937;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #edf1f5;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.primary,
+.secondary {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.primary {
+  background: var(--color-accent);
+  color: white;
+}
+
+.primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.secondary {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.primary:hover,
+.secondary:hover {
+  opacity: 0.9;
+}
+
+.errorMessage {
+  color: #dc2626;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  background: #f0fdf4;
+  border-radius: 8px;
+}
+
+.success h2 {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.success p {
+  margin-bottom: 30px;
+  color: #4b5565;
+}
+
+.success .button {
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}

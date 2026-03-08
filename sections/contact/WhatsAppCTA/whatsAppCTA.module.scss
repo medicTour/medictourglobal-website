@@ -1,0 +1,30 @@
+.section {
+  padding: 40px 0;
+  background-color: #f8fafc;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 38px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

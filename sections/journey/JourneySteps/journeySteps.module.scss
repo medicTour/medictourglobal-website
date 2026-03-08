@@ -1,0 +1,72 @@
+.stepsSection {
+  padding: 60px 0;
+  background-color: #f8fafc;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 50px;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.stepCard {
+  flex: 1 1 200px;
+  max-width: 220px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px 15px 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid #edf1f5;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stepCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: var(--color-accent);
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 0 auto 15px;
+  font-size: 1.2rem;
+}
+
+.stepTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.stepDesc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #4b5565;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stepCard {
+    max-width: 100%;
+    width: 100%;
+  }
+}

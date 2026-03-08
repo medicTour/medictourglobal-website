@@ -1,0 +1,1118 @@
+{
+  "TopBar": {
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call Us",
+    "email": "Email Us",
+    "language": "Language"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "treatments": "Treatments",
+    "journey": "Patient Journey",
+    "regions": "Global Regions",
+    "resources": "Resources",
+    "contact": "Contact",
+    "regionsMenu": {
+      "africa": "Africa",
+      "uk": "United Kingdom",
+      "uae": "United Arab Emirates"
+    }
+  },
+  "Hero": {
+    "cta": "Start Your Inquiry",
+    "slide1": {
+      "small": "International Patient Support",
+      "title1": "Medical Care",
+      "title2": "Without Uncertainty",
+      "subtitle": "From your first inquiry to your return home, we coordinate every step with clarity and care."
+    },
+    "slide2": {
+      "small": "Care That Understands You",
+      "title1": "Personalized Treatment",
+      "title2": "With Human Attention",
+      "subtitle": "We connect you with trusted specialists while ensuring comfort, transparency, and support throughout your journey."
+    },
+    "slide3": {
+      "small": "Trusted Global Network",
+      "title1": "Access Leading Doctors",
+      "title2": "Across Borders",
+      "subtitle": "Partner hospitals and experienced medical teams focused on safe, ethical, and advanced treatment solutions."
+    }
+  },
+  "Trust": {
+    "title": "Why Patients Choose MedicTour Global",
+    "items": {
+      "care": {
+        "title": "Personalized Care Coordination",
+        "description": "Every patient journey is different. Our coordinators guide you step-by-step from medical review to travel and recovery."
+      },
+      "specialists": {
+        "title": "Experienced Specialists",
+        "description": "We work with qualified doctors and internationally recognized specialists across leading hospitals in India."
+      },
+      "facilities": {
+        "title": "Advanced Treatment Facilities",
+        "description": "Access modern hospitals equipped with advanced medical technology and internationally accredited care standards."
+      },
+      "ethics": {
+        "title": "Ethical & Transparent Guidance",
+        "description": "Clear medical communication, honest treatment guidance, and patient-first decision making at every stage."
+      }
+    }
+  },
+  "Treatments": {
+    "title": "Popular Medical Treatments",
+    "subtitle": "Helping international patients access trusted specialists for essential procedures.",
+    "items": [
+      {
+        "title": "Cardiac Surgery",
+        "desc": "Advanced heart procedures performed by experienced cardiologists."
+      },
+      {
+        "title": "Orthopedic Surgery",
+        "desc": "Joint replacement and orthopedic care with modern surgical techniques."
+      },
+      {
+        "title": "Cancer Treatment",
+        "desc": "Comprehensive oncology care with advanced treatment options."
+      },
+      {
+        "title": "Cosmetic Surgery",
+        "desc": "Safe and personalized aesthetic procedures performed by qualified surgeons."
+      },
+      {
+        "title": "Fertility Treatment",
+        "desc": "IVF and reproductive treatments supported by experienced specialists."
+      },
+      {
+        "title": "Organ Transplant",
+        "desc": "Highly specialized transplant programs with expert medical teams."
+      }
+    ]
+  },
+  "Journey": {
+    "sectionTitle": "Your Treatment Journey",
+    "sectionSubtitle": "A clear and guided process designed to support international patients at every stage of their medical travel.",
+    "steps": [
+      {
+        "title": "Submit Inquiry",
+        "description": "Share your medical reports and concerns with our care team. We review your case confidentially and begin evaluating the best treatment options."
+      },
+      {
+        "title": "Medical Evaluation",
+        "description": "Our partner doctors review your case and provide expert opinions along with recommended treatment plans."
+      },
+      {
+        "title": "Treatment Planning",
+        "description": "We prepare a clear treatment plan including hospital selection, estimated cost, and expected duration of stay."
+      },
+      {
+        "title": "Travel & Admission",
+        "description": "Our team assists with travel planning, airport pickup, hospital admission, and accommodation arrangements."
+      },
+      {
+        "title": "Recovery & Follow-Up",
+        "description": "After treatment, we support recovery planning and coordinate follow-up consultations with your doctors."
+      }
+    ]
+  },
+  "CostComparison": {
+    "title": "Treatment Cost Comparison",
+    "subtitle": "Compare typical treatment costs across regions and understand the value of receiving care in India.",
+    "ctaText": "Want to know the exact cost for your treatment?",
+    "ctaButton": "Start Your Inquiry",
+    "treatments": [
+      {
+        "name": "Heart Bypass Surgery",
+        "us": "$120,000",
+        "uk": "£70,000",
+        "eu": "€65,000",
+        "india": "$7,000"
+      },
+      {
+        "name": "Knee Replacement",
+        "us": "$45,000",
+        "uk": "£18,000",
+        "eu": "€16,000",
+        "india": "$5,000"
+      },
+      {
+        "name": "Hip Replacement",
+        "us": "$40,000",
+        "uk": "£16,000",
+        "eu": "€14,000",
+        "india": "$4,500"
+      },
+      {
+        "name": "Spine Surgery",
+        "us": "$90,000",
+        "uk": "£50,000",
+        "eu": "€45,000",
+        "india": "$8,000"
+      },
+      {
+        "name": "IVF Treatment",
+        "us": "$25,000",
+        "uk": "£12,000",
+        "eu": "€10,000",
+        "india": "$3,500"
+      }
+    ]
+  },
+  "Regions": {
+    "title": "Global Regions We Serve",
+    "subtitle": "Supporting international patients with personalized medical coordination and travel assistance.",
+    "items": [
+      {
+        "title": "Africa",
+        "description": "Supporting patients from across African countries seeking advanced and affordable treatment options in India.",
+        "button": "Explore Africa",
+        "slug": "africa"
+      },
+      {
+        "title": "United Kingdom",
+        "description": "Helping UK patients access specialized treatments with shorter waiting times and cost advantages.",
+        "button": "Explore UK",
+        "slug": "uk"
+      },
+      {
+        "title": "United Arab Emirates",
+        "description": "Coordinating medical travel for patients from the UAE seeking expert care in leading Indian hospitals.",
+        "button": "Explore UAE",
+        "slug": "uae"
+      }
+    ],
+    "africa": {
+      "hero": {
+        "title": "Medical Treatment in India for Patients from Africa",
+        "subtitle": "Advanced medical care with trusted guidance for patients traveling from African countries.",
+        "description": "MedicTour Global supports patients across Africa seeking specialized treatment in India. From medical evaluation to travel assistance and recovery support, our team coordinates every step of your treatment journey.",
+        "cta": "Start Your Medical Inquiry"
+      },
+      "trust": {
+        "title": "Why Many Patients from Africa Choose India for Treatment",
+        "affordable": {
+          "title": "Affordable Advanced Care",
+          "desc": "Access world-class treatment in modern hospitals at significantly lower costs compared to many international healthcare systems."
+        },
+        "specialists": {
+          "title": "Experienced Medical Specialists",
+          "desc": "Consult with highly experienced doctors and surgeons working at leading hospitals across India."
+        },
+        "hospitals": {
+          "title": "Modern Accredited Hospitals",
+          "desc": "Partner hospitals equipped with advanced medical technology and internationally recognized standards of care."
+        },
+        "support": {
+          "title": "Personalized Patient Coordination",
+          "desc": "Our care team guides you through every stage — from medical consultation and travel planning to hospital admission and recovery."
+        }
+      },
+      "treatments": {
+        "title": "Popular Treatments for International Patients",
+        "items": [
+          {
+            "title": "Cardiac Surgery",
+            "desc": "Complex heart procedures performed by experienced cardiologists using advanced surgical techniques."
+          },
+          {
+            "title": "Orthopedic Surgery",
+            "desc": "Joint replacement and orthopedic procedures designed to restore mobility and improve quality of life."
+          },
+          {
+            "title": "Cancer Treatment",
+            "desc": "Comprehensive oncology care including surgery, chemotherapy, and advanced cancer treatment approaches."
+          },
+          {
+            "title": "Cosmetic Surgery",
+            "desc": "Personalized aesthetic procedures performed by qualified surgeons in accredited medical facilities."
+          },
+          {
+            "title": "Fertility Treatment",
+            "desc": "IVF and reproductive care supported by experienced fertility specialists and modern laboratories."
+          },
+          {
+            "title": "Organ Transplant",
+            "desc": "Highly specialized transplant programs supported by multidisciplinary medical teams."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Affordable Treatment Compared to Many Countries",
+        "subtitle": "India offers high-quality treatment at significantly lower costs while maintaining modern medical standards and experienced specialist care."
+      },
+      "hospitals": {
+        "title": "Trusted Hospitals & Experienced Doctors",
+        "desc": "MedicTour Global works with leading hospitals across India that provide advanced treatment facilities, experienced specialists, and dedicated international patient services."
+      },
+      "testimonials": {
+        "title": "Experiences Shared by International Patients",
+        "items": [
+          {
+            "name": "John – Kenya",
+            "text": "The entire process was well organized. From the first consultation to my treatment and recovery, the team guided me through every step."
+          },
+          {
+            "name": "Mary – Nigeria",
+            "text": "The hospital facilities were excellent and the doctors explained everything clearly. I felt confident throughout my treatment."
+          },
+          {
+            "name": "Ahmed – Tanzania",
+            "text": "Traveling for treatment was new for me, but the coordination team made the process smooth and stress-free."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Travel & Treatment Assistance",
+        "items": [
+          "Guidance for medical visa and travel planning",
+          "Airport pickup and local transportation support",
+          "Accommodation assistance near hospitals",
+          "Coordination with hospitals and doctors"
+        ]
+      }
+    },
+    "uk": {
+      "hero": {
+        "title": "Medical Treatment in India for Patients from the United Kingdom",
+        "subtitle": "Access experienced specialists and advanced treatment without long waiting periods.",
+        "description": "Some patients from the United Kingdom explore treatment options abroad when waiting times for certain procedures become lengthy or private treatment costs are high. MedicTour Global helps patients connect with experienced specialists and modern hospitals in India with clear guidance throughout the treatment journey.",
+        "cta": "Start Your Medical Inquiry"
+      },
+      "trust": {
+        "title": "Why Some Patients from the UK Choose Treatment in India",
+        "affordable": {
+          "title": "Transparent Treatment Costs",
+          "desc": "Many procedures can be performed at significantly lower costs compared to private healthcare in the UK."
+        },
+        "specialists": {
+          "title": "Experienced Medical Specialists",
+          "desc": "Consult with highly experienced surgeons and specialists working at internationally recognized hospitals."
+        },
+        "hospitals": {
+          "title": "Modern Accredited Hospitals",
+          "desc": "Partner hospitals equipped with advanced medical technology and internationally recognized treatment standards."
+        },
+        "support": {
+          "title": "Personalized Medical Coordination",
+          "desc": "Our care team supports you throughout the process — from medical consultation and treatment planning to travel coordination and recovery."
+        }
+      },
+      "treatments": {
+        "title": "Common Treatments Sought by International Patients",
+        "items": [
+          {
+            "title": "Cardiac Surgery",
+            "desc": "Advanced heart procedures performed by experienced cardiologists using modern surgical techniques."
+          },
+          {
+            "title": "Orthopedic Surgery",
+            "desc": "Joint replacement and orthopedic procedures designed to restore mobility and improve quality of life."
+          },
+          {
+            "title": "Cancer Treatment",
+            "desc": "Comprehensive oncology care including surgery, chemotherapy, and advanced cancer therapies."
+          },
+          {
+            "title": "Cosmetic Surgery",
+            "desc": "Safe and personalized aesthetic procedures performed by qualified surgeons."
+          },
+          {
+            "title": "Fertility Treatment",
+            "desc": "Modern IVF and reproductive treatments supported by experienced fertility specialists."
+          },
+          {
+            "title": "Organ Transplant",
+            "desc": "Specialized transplant programs supported by experienced multidisciplinary medical teams."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Affordable Treatment Compared to Private Healthcare Costs",
+        "subtitle": "India offers advanced medical treatment with experienced specialists at a fraction of the cost compared to many private healthcare providers."
+      },
+      "hospitals": {
+        "title": "Trusted Hospitals & Experienced Doctors",
+        "desc": "MedicTour Global works with leading hospitals across India that provide modern facilities, experienced surgeons, and dedicated international patient services."
+      },
+      "testimonials": {
+        "title": "Experiences Shared by International Patients",
+        "items": [
+          {
+            "name": "James – London",
+            "text": "The treatment process was explained clearly and the hospital facilities were excellent. Everything was well coordinated."
+          },
+          {
+            "name": "Sarah – Manchester",
+            "text": "I appreciated the clear communication and support throughout my treatment journey."
+          },
+          {
+            "name": "David – Birmingham",
+            "text": "The doctors were experienced and the coordination team made traveling for treatment much easier."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Travel & Treatment Assistance",
+        "items": [
+          "Guidance for travel planning and medical documentation",
+          "Airport pickup and local transportation support",
+          "Accommodation assistance near hospitals",
+          "Coordination with hospitals and medical specialists"
+        ]
+      }
+    },
+    "uae": {
+      "hero": {
+        "title": "Medical Treatment in India for Patients from the UAE",
+        "subtitle": "Access experienced specialists and advanced treatment options.",
+        "description": "Patients from the UAE sometimes explore international treatment options for specialized procedures, second medical opinions, or personalized care. MedicTour Global connects patients with experienced doctors and internationally recognized hospitals across India while supporting every stage of the treatment journey.",
+        "cta": "Start Your Medical Inquiry"
+      },
+      "trust": {
+        "title": "Why Patients from the UAE Choose Treatment in India",
+        "affordable": {
+          "title": "Transparent Treatment Planning",
+          "desc": "Clear treatment plans and cost estimates allow patients to make informed medical decisions before traveling."
+        },
+        "specialists": {
+          "title": "Experienced Medical Specialists",
+          "desc": "Consult with internationally experienced doctors and specialists across leading hospitals in India."
+        },
+        "hospitals": {
+          "title": "Modern Accredited Hospitals",
+          "desc": "Access hospitals equipped with advanced medical technology and internationally recognized care standards."
+        },
+        "support": {
+          "title": "Personalized Patient Coordination",
+          "desc": "Our international patient coordinators assist with consultation scheduling, hospital coordination, and travel planning."
+        }
+      },
+      "treatments": {
+        "title": "Common Treatments Sought by International Patients",
+        "items": [
+          {
+            "title": "Cardiac Surgery",
+            "desc": "Advanced heart procedures performed by experienced cardiologists using modern surgical techniques."
+          },
+          {
+            "title": "Orthopedic Surgery",
+            "desc": "Joint replacement and orthopedic procedures designed to restore mobility and improve quality of life."
+          },
+          {
+            "title": "Cancer Treatment",
+            "desc": "Comprehensive oncology care supported by advanced diagnostics and experienced specialists."
+          },
+          {
+            "title": "Cosmetic Surgery",
+            "desc": "Safe aesthetic procedures performed by qualified surgeons with a focus on natural results."
+          },
+          {
+            "title": "Fertility Treatment",
+            "desc": "Modern IVF and reproductive treatments supported by experienced fertility specialists."
+          },
+          {
+            "title": "Organ Transplant",
+            "desc": "Highly specialized transplant programs coordinated by experienced multidisciplinary teams."
+          }
+        ]
+      },
+      "cost": {
+        "title": "Transparent and Competitive Treatment Costs",
+        "subtitle": "Patients often explore treatment abroad to access specialized procedures with transparent pricing and experienced doctors."
+      },
+      "hospitals": {
+        "title": "Trusted Hospitals & Experienced Specialists",
+        "desc": "MedicTour Global works with leading hospitals across India known for advanced medical infrastructure and experienced medical teams."
+      },
+      "testimonials": {
+        "title": "Experiences Shared by International Patients",
+        "items": [
+          {
+            "name": "Ahmed – Dubai",
+            "text": "The process was organized very professionally and the doctors were highly experienced."
+          },
+          {
+            "name": "Fatima – Abu Dhabi",
+            "text": "Everything from consultation to recovery was clearly explained and well coordinated."
+          },
+          {
+            "name": "Omar – Sharjah",
+            "text": "The hospital facilities and medical team were excellent and the experience was very reassuring."
+          }
+        ]
+      },
+      "travelSupport": {
+        "title": "Travel & Treatment Assistance",
+        "items": [
+          "Medical consultation coordination",
+          "Travel and accommodation guidance",
+          "Airport pickup and hospital admission support",
+          "Follow-up coordination after treatment"
+        ]
+      }
+    }
+  },
+  "Resources": {
+    "title": "Medical Travel Resources",
+    "subtitle": "Helpful information to guide you through every step of your medical journey.",
+    "items": [
+      {
+        "title": "Preparing for Medical Travel",
+        "description": "Essential guidance for international patients planning treatment abroad.",
+        "button": "Read More",
+        "slug": "medical-travel-preparation"
+      },
+      {
+        "title": "Understanding Treatment Options",
+        "description": "Learn about different procedures and how to choose the right treatment.",
+        "button": "Read More",
+        "slug": "treatment-options"
+      },
+      {
+        "title": "Recovery and Aftercare",
+        "description": "Understand what to expect after treatment and how to plan a smooth recovery.",
+        "button": "Read More",
+        "slug": "recovery-aftercare"
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Start Your Medical Journey",
+    "subtitle": "Our international patient team will guide you through treatment options, travel planning, and hospital coordination.",
+    "button": "Start Your Inquiry"
+  },
+  "Footer": {
+    "about": "Medictour Global supports international patients seeking trusted and affordable medical treatment in India. Our team coordinates every step of your medical journey.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "treatments": "Treatments",
+      "journey": "Patient Journey",
+      "regions": "Global Regions",
+      "resources": "Resources",
+      "contact": "Contact"
+    },
+    "treatments": {
+      "title": "Treatments",
+      "cardiac": "Cardiac Surgery",
+      "orthopedic": "Orthopedic Surgery",
+      "spine": "Spine Surgery",
+      "ivf": "IVF Treatment",
+      "transplant": "Organ Transplant"
+    },
+    "regions": {
+      "title": "Global Regions",
+      "africa": "Africa",
+      "uk": "United Kingdom",
+      "uae": "United Arab Emirates"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    },
+    "copyright": "© 2026 Medictour Global. All rights reserved."
+  },
+  "TreatmentDetail": {
+    "cardiac-surgery": {
+      "hero": {
+        "title": "Cardiac Surgery in India",
+        "subtitle": "Advanced heart procedures performed by experienced cardiologists.",
+        "description": "Cardiac surgery helps treat serious heart conditions such as blocked arteries, damaged valves, or congenital heart defects. Patients from around the world travel to India to access experienced heart surgeons, modern hospitals, and advanced surgical technology.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Heart Conditions",
+        "description": "Heart disease can develop when blood flow to the heart is restricted or when heart valves do not function properly. In some cases, surgery may be required to restore normal heart function and improve overall health."
+      },
+      "symptoms": {
+        "title": "Common Symptoms",
+        "items": [
+          "Chest pain or discomfort",
+          "Shortness of breath",
+          "Fatigue during physical activity",
+          "Irregular heartbeat",
+          "Swelling in legs or feet"
+        ]
+      },
+      "procedures": {
+        "title": "Types of Cardiac Procedures",
+        "items": [
+          {
+            "title": "Coronary Artery Bypass Surgery",
+            "desc": "Improves blood flow to the heart by bypassing blocked arteries."
+          },
+          {
+            "title": "Heart Valve Replacement",
+            "desc": "Repairs or replaces damaged heart valves to restore normal blood flow."
+          },
+          {
+            "title": "Minimally Invasive Cardiac Surgery",
+            "desc": "Uses smaller incisions for certain heart procedures, reducing recovery time."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Treatment",
+        "items": [
+          "Improved heart function",
+          "Reduced symptoms and discomfort",
+          "Better quality of life",
+          "Lower risk of heart complications"
+        ]
+      },
+      "process": {
+        "title": "Treatment Process",
+        "steps": [
+          "Medical report review by specialists",
+          "Personalized treatment planning",
+          "Hospital admission and surgery",
+          "Post-operative monitoring and recovery"
+        ]
+      },
+      "cost": {
+        "title": "Treatment Cost Overview",
+        "description": "Heart surgery costs in India are significantly lower than in many countries while maintaining high medical standards. The final cost depends on hospital choice and patient condition."
+      },
+      "recovery": {
+        "title": "Recovery and Aftercare",
+        "description": "Patients typically stay in hospital for 5 to 7 days after surgery. Recovery time may vary depending on the procedure and overall health condition."
+      },
+      "faq": [
+        {
+          "q": "How long do patients stay in India after heart surgery?",
+          "a": "Most patients stay for approximately two to three weeks to allow proper recovery and follow-up consultations."
+        },
+        {
+          "q": "Can doctors review my reports before I travel?",
+          "a": "Yes, patients can share their medical reports for evaluation before planning travel."
+        }
+      ]
+    },
+    "orthopedic-surgery": {
+      "hero": {
+        "title": "Orthopedic Surgery in India",
+        "subtitle": "Advanced joint replacement and orthopedic procedures.",
+        "description": "Orthopedic surgery helps treat conditions affecting bones, joints, and muscles. Patients travel to India for procedures such as joint replacement and sports injury treatment performed by experienced orthopedic specialists.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Orthopedic Conditions",
+        "description": "Orthopedic conditions may develop due to aging, injury, or degenerative diseases affecting bones and joints. Surgical treatment may help restore mobility and reduce pain."
+      },
+      "symptoms": {
+        "title": "Common Symptoms",
+        "items": [
+          "Joint pain",
+          "Reduced mobility",
+          "Swelling or stiffness",
+          "Difficulty walking",
+          "Chronic joint discomfort"
+        ]
+      },
+      "procedures": {
+        "title": "Types of Orthopedic Procedures",
+        "items": [
+          {
+            "title": "Knee Replacement Surgery",
+            "desc": "Replaces damaged knee joints to restore mobility."
+          },
+          {
+            "title": "Hip Replacement Surgery",
+            "desc": "Improves movement by replacing damaged hip joints."
+          },
+          {
+            "title": "Arthroscopic Surgery",
+            "desc": "Minimally invasive procedure used to diagnose and treat joint problems."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Treatment",
+        "items": [
+          "Reduced joint pain",
+          "Improved mobility",
+          "Better physical activity levels",
+          "Enhanced quality of life"
+        ]
+      }
+    },
+    "spine-surgery": {
+      "hero": {
+        "title": "Spine Surgery in India",
+        "subtitle": "Advanced treatment for spinal disorders and back pain.",
+        "description": "Spine surgery is performed to treat conditions such as herniated discs, spinal stenosis, and spinal deformities. Modern surgical techniques help relieve pain and restore mobility.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Spine Conditions",
+        "description": "Spinal disorders can affect nerves, discs, or bones in the spine. In some cases, surgery may be required when non-surgical treatments do not provide relief."
+      },
+      "symptoms": {
+        "title": "Common Symptoms",
+        "items": [
+          "Chronic back pain",
+          "Numbness or tingling in limbs",
+          "Muscle weakness",
+          "Difficulty standing or walking"
+        ]
+      }
+    },
+    "ivf-treatment": {
+      "hero": {
+        "title": "IVF Treatment in India",
+        "subtitle": "Advanced fertility treatments supported by experienced specialists.",
+        "description": "IVF treatment helps couples experiencing fertility challenges achieve pregnancy. India offers modern fertility clinics and experienced specialists providing personalized reproductive care.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Fertility Challenges",
+        "description": "Infertility may occur due to hormonal imbalances, reproductive health conditions, or unexplained factors. IVF treatment may provide an effective option for many couples."
+      },
+      "procedures": {
+        "title": "Fertility Treatment Options",
+        "items": [
+          {
+            "title": "In Vitro Fertilization (IVF)",
+            "desc": "Eggs and sperm are combined in a laboratory to create embryos."
+          },
+          {
+            "title": "ICSI Treatment",
+            "desc": "A single sperm is injected into an egg to assist fertilization."
+          }
+        ]
+      }
+    },
+    "organ-transplant": {
+      "hero": {
+        "title": "Organ Transplant Programs in India",
+        "subtitle": "Highly specialized transplant procedures performed by experienced medical teams.",
+        "description": "Organ transplantation offers life-saving treatment for patients with severe organ failure. India has established transplant centers with experienced specialists and advanced medical infrastructure.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "When Organ Transplant May Be Needed",
+        "description": "Transplants may be required when vital organs such as the kidney or liver stop functioning properly and cannot be treated through medication alone."
+      },
+      "procedures": {
+        "title": "Types of Organ Transplants",
+        "items": [
+          {
+            "title": "Kidney Transplant",
+            "desc": "Replaces a failed kidney with a healthy donor kidney."
+          },
+          {
+            "title": "Liver Transplant",
+            "desc": "A life-saving procedure for patients with severe liver disease."
+          }
+        ]
+      }
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "Guiding International Patients Toward Trusted Medical Care",
+      "subtitle": "Medictour Global helps international patients access trusted hospitals and experienced specialists in India, while coordinating travel, treatment, and recovery support with care and clarity."
+    },
+    "story": {
+      "title": "Our Story",
+      "text": "Many international patients struggle to find reliable medical information and trustworthy hospitals when seeking treatment abroad. Medictour Global was founded to bridge that gap by helping patients connect with experienced doctors and accredited hospitals in India while receiving clear guidance throughout their medical journey."
+    },
+    "mission": {
+      "missionTitle": "Our Mission",
+      "missionText": "Provide international patients with transparent, coordinated, and compassionate medical travel support.",
+      "visionTitle": "Our Vision",
+      "visionText": "Become a trusted global partner for patients seeking high-quality medical treatment abroad.",
+      "valuesTitle": "Our Values",
+      "values": {
+        "transparency": "Transparency",
+        "patientFirst": "Patient-first care",
+        "ethical": "Ethical coordination",
+        "trusted": "Trusted medical partnerships"
+      }
+    },
+    "trust": {
+      "title": "Why Patients Trust Medictour",
+      "hospitals": {
+        "title": "Verified Hospitals",
+        "desc": "We partner with accredited hospitals known for their quality standards and experienced medical teams."
+      },
+      "specialists": {
+        "title": "Experienced Specialists",
+        "desc": "Our network includes internationally trained doctors across leading Indian hospitals."
+      },
+      "transparency": {
+        "title": "Transparent Communication",
+        "desc": "Clear treatment plans, cost estimates, and open communication from the first inquiry."
+      },
+      "support": {
+        "title": "Personalized Patient Support",
+        "desc": "Dedicated coordinators guide you through every step, from medical review to recovery."
+      }
+    },
+    "process": {
+      "title": "How We Work",
+      "inquiry": {
+        "title": "Inquiry",
+        "desc": "Share your medical needs and reports with our team."
+      },
+      "review": {
+        "title": "Medical Review",
+        "desc": "Our specialists evaluate your case and suggest treatment options."
+      },
+      "planning": {
+        "title": "Treatment Planning",
+        "desc": "We provide a clear plan with hospital selection and cost estimate."
+      },
+      "travel": {
+        "title": "Travel Coordination",
+        "desc": "We assist with visa, travel, and hospital admission arrangements."
+      },
+      "recovery": {
+        "title": "Recovery & Follow-up",
+        "desc": "Support during recovery and follow-up consultations after treatment."
+      }
+    },
+    "global": {
+      "title": "Global Patient Focus",
+      "subtitle": "Supporting patients from Africa, the United Kingdom, and the United Arab Emirates.",
+      "africa": {
+        "title": "Africa",
+        "desc": "Supporting patients from across African countries seeking advanced and affordable treatment options in India."
+      },
+      "uk": {
+        "title": "United Kingdom",
+        "desc": "Helping UK patients access specialized treatments with shorter waiting times and cost advantages."
+      },
+      "uae": {
+        "title": "United Arab Emirates",
+        "desc": "Coordinating medical travel for patients from the UAE seeking expert care in leading Indian hospitals."
+      }
+    },
+    "cta": {
+      "title": "Speak With Our Medical Travel Team",
+      "subtitle": "Our patient coordinators are ready to guide you through treatment options and travel planning.",
+      "button": "Start Your Inquiry"
+    }
+  },
+  "TreatmentsHero": {
+    "title": "Medical Treatments We Support",
+    "subtitle": "Connecting international patients with experienced specialists and trusted hospitals across India."
+  },
+  "TreatmentsIntro": {
+    "title": "Specialized Medical Treatments",
+    "description": "MedicTour Global works with trusted hospitals and experienced specialists across India. We help international patients access advanced treatment options while providing clear guidance, transparent planning, and personalized support throughout their medical journey."
+  },
+  "TreatmentsCategories": {
+    "title": "Treatment Areas",
+    "items": [
+      {
+        "title": "Cardiac Surgery",
+        "desc": "Advanced heart procedures performed by experienced cardiologists using modern surgical techniques."
+      },
+      {
+        "title": "Orthopedic Surgery",
+        "desc": "Joint replacement and orthopedic care focused on restoring mobility and long-term recovery."
+      },
+      {
+        "title": "Cancer Treatment",
+        "desc": "Comprehensive oncology care supported by modern diagnostic tools and advanced treatment approaches."
+      },
+      {
+        "title": "Cosmetic Surgery",
+        "desc": "Safe and personalized aesthetic procedures performed by qualified plastic surgeons."
+      },
+      {
+        "title": "Fertility Treatment",
+        "desc": "IVF and reproductive treatments supported by experienced fertility specialists and modern laboratories."
+      },
+      {
+        "title": "Organ Transplant",
+        "desc": "Highly specialized transplant programs with experienced surgical teams and modern facilities."
+      }
+    ]
+  },
+  "FeaturedProcedures": {
+    "title": "Common Procedures We Coordinate",
+    "cardiac": [
+      "Coronary Artery Bypass Surgery",
+      "Heart Valve Replacement",
+      "Angioplasty"
+    ],
+    "orthopedic": [
+      "Total Knee Replacement",
+      "Hip Replacement",
+      "Spine Surgery"
+    ],
+    "fertility": [
+      "IVF Treatment",
+      "ICSI Procedure",
+      "Egg Freezing"
+    ]
+  },
+  "TreatmentSupport": {
+    "title": "How We Support Your Treatment",
+    "items": [
+      "Reviewing your medical reports with experienced specialists",
+      "Connecting you with trusted hospitals and doctors",
+      "Preparing clear treatment plans and cost estimates",
+      "Assisting with travel planning and hospital admission",
+      "Supporting recovery and follow-up consultations"
+    ]
+  },
+  "Hospitals": {
+    "title": "Trusted Hospitals & Specialists",
+    "desc": "We work with internationally recognized hospitals and experienced medical specialists across major medical cities in India."
+  },
+  "TreatmentCost": {
+    "title": "Affordable Treatment Without Compromising Quality",
+    "desc": "India provides advanced medical treatment at significantly lower costs compared to many Western countries while maintaining high standards of care."
+  },
+  "TreatmentsCTA": {
+    "title": "Discuss Your Treatment Options",
+    "subtitle": "Share your medical reports with our team and receive guidance on suitable treatment options.",
+    "button": "Start Your Inquiry"
+  },
+  "JourneyHero": {
+    "title": "Your Treatment Journey",
+    "subtitle": "A clear and supportive process designed to guide international patients through every stage of their medical travel experience."
+  },
+  "JourneyIntro": {
+    "title": "A Guided Medical Travel Experience",
+    "desc": "Traveling abroad for treatment can feel complex. MedicTour Global simplifies the process by guiding international patients through every stage — from medical evaluation and treatment planning to recovery support."
+  },
+  "JourneySteps": {
+    "title": "Your Treatment Journey",
+    "steps": [
+      {
+        "title": "Submit Inquiry",
+        "desc": "Share your medical reports and concerns with our care team so we can begin evaluating your case."
+      },
+      {
+        "title": "Medical Evaluation",
+        "desc": "Specialists review your reports and provide expert opinions and possible treatment options."
+      },
+      {
+        "title": "Treatment Planning",
+        "desc": "We prepare a clear treatment plan including hospital recommendations, estimated cost, and duration of stay."
+      },
+      {
+        "title": "Travel & Admission",
+        "desc": "Our team assists with travel planning, airport pickup, accommodation, and hospital admission."
+      },
+      {
+        "title": "Recovery & Follow-Up",
+        "desc": "After treatment, we support recovery planning and coordinate follow-up consultations."
+      }
+    ]
+  },
+  "DoctorEvaluation": {
+    "title": "Medical Evaluation by Specialists",
+    "desc": "Your medical reports are reviewed by experienced doctors from our partner hospitals to determine the most suitable treatment options."
+  },
+  "TravelSupport": {
+    "title": "Travel & Arrival Support",
+    "desc": "We assist with airport pickup, accommodation arrangements, and hospital admission to ensure a smooth arrival experience."
+  },
+  "HospitalCare": {
+    "title": "Hospital Care & Patient Support",
+    "desc": "Our partner hospitals provide modern medical facilities, experienced specialists, and dedicated patient care teams."
+  },
+  "RecoverySupport": {
+    "title": "Recovery & Follow-Up Care",
+    "desc": "After treatment, we assist with recovery planning and coordinate follow-up consultations with your doctors."
+  },
+  "PatientSafety": {
+    "title": "Patient Safety & Transparent Guidance",
+    "desc": "We prioritize clear communication, ethical treatment guidance, and coordination with trusted hospitals."
+  },
+  "JourneyFAQ": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How long does the treatment process take?",
+        "a": "The timeline depends on the medical condition and recommended treatment plan. Our team will provide a clear estimate during the planning stage."
+      },
+      {
+        "q": "Do I need a medical visa?",
+        "a": "Most international patients require a medical visa for treatment in India. Our team can guide you through the application process."
+      },
+      {
+        "q": "Will someone assist me when I arrive?",
+        "a": "Yes, we coordinate airport pickup and hospital admission to ensure a smooth arrival."
+      },
+      {
+        "q": "Can I travel with a family member?",
+        "a": "Absolutely. We encourage patients to bring a companion for support and can assist with accommodation arrangements."
+      }
+    ]
+  },
+  "JourneyCTA": {
+    "title": "Start Your Treatment Journey",
+    "subtitle": "Share your medical reports with our care team and receive guidance on suitable treatment options.",
+    "button": "Submit Inquiry"
+  },
+  "ResourcesHero": {
+    "title": "Patient Resources",
+    "subtitle": "Helpful guides and information to support international patients planning treatment in India."
+  },
+  "ResourcesIntro": {
+    "title": "Information for International Patients",
+    "desc": "Our resource center provides helpful guides and information to help international patients understand treatment options, prepare for medical travel, and feel confident throughout their journey."
+  },
+  "MedicalTravelGuides": {
+    "title": "Medical Travel Guides",
+    "items": [
+      "How Medical Tourism Works in India",
+      "Planning Your Medical Travel",
+      "Understanding Treatment Costs Abroad",
+      "Choosing the Right Hospital"
+    ]
+  },
+  "TreatmentEducation": {
+    "title": "Treatment Information",
+    "items": [
+      "Understanding Cardiac Surgery",
+      "Knee Replacement Overview",
+      "IVF Treatment Guide",
+      "Cancer Treatment Options"
+    ]
+  },
+  "PatientPreparation": {
+    "title": "Patient Preparation Guides",
+    "items": [
+      "Documents Needed for Medical Travel",
+      "Preparing Your Medical Reports",
+      "What to Pack for Medical Travel",
+      "Traveling with a Companion"
+    ]
+  },
+  "HospitalInformation": {
+    "title": "Hospital & Treatment Information",
+    "items": [
+      "Understanding Hospital Accreditation",
+      "International Patient Services",
+      "Modern Medical Technology in India"
+    ]
+  },
+  "Downloads": {
+    "title": "Helpful Downloads",
+    "items": [
+      "Medical Travel Preparation Checklist",
+      "Patient Travel Planner",
+      "Treatment Preparation Guide"
+    ]
+  },
+  "ResourcesFAQ": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How long should I stay in India for treatment?",
+        "a": "The duration depends on the type of treatment and recovery time recommended by your doctor."
+      },
+      {
+        "q": "Can I bring a companion during treatment?",
+        "a": "Yes, patients are encouraged to travel with a family member or companion."
+      },
+      {
+        "q": "How do I share my medical reports?",
+        "a": "You can submit your reports through our inquiry form or email them to our care team."
+      }
+    ]
+  },
+  "ResourcesCTA": {
+    "title": "Need Help Understanding Your Treatment Options?",
+    "subtitle": "Share your medical reports with our care team and receive guidance on possible treatment options.",
+    "button": "Start Your Inquiry"
+  },
+  "ContactHero": {
+    "title": "Start Your Medical Inquiry",
+    "subtitle": "Share your medical reports and treatment concerns with our care team. We carefully review every case and guide you toward suitable treatment options in India.",
+    "cta": "Begin Inquiry"
+  },
+  "QuickContact": {
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Email Our Care Team",
+    "responseTime": "Response within 24h"
+  },
+  "InquiryIntro": {
+    "text": "To help our doctors evaluate your condition, please provide basic medical information. All information shared with us is handled confidentially."
+  },
+  "Form": {
+    "step1Title": "Patient Details",
+    "step2Title": "Medical Information",
+    "step3Title": "Travel Information",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone / WhatsApp",
+    "country": "Country",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "select": "Select",
+    "treatment": "Treatment Needed",
+    "cardiac": "Cardiac Surgery",
+    "orthopedic": "Orthopedic Surgery",
+    "cancer": "Cancer Treatment",
+    "fertility": "Fertility Treatment",
+    "cosmetic": "Cosmetic Surgery",
+    "transplant": "Organ Transplant",
+    "condition": "Medical Condition Description",
+    "previousDiagnosis": "Previous Diagnosis",
+    "previousTreatments": "Previous Treatments",
+    "timeline": "Preferred Treatment Timeline",
+    "within1": "Within 1 month",
+    "within3": "Within 3 months",
+    "exploring": "Just exploring options",
+    "visitedBefore": "Have you visited India before?",
+    "yes": "Yes",
+    "no": "No",
+    "companion": "Will you travel with a companion?",
+    "additionalMessage": "Additional Message",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit Medical Inquiry",
+    "submitting": "Submitting...",
+    "nameMin": "Please enter your full name as it appears in your medical records.",
+    "nameInvalid": "Name must contain only letters and spaces.",
+    "emailInvalid": "Please enter a valid email address.",
+    "phoneMin": "Please provide a valid phone number.",
+    "countryRequired": "Please enter your country.",
+    "ageInvalid": "Please enter a valid age.",
+    "genderRequired": "Please select your gender.",
+    "treatmentRequired": "Please select a treatment.",
+    "conditionMin": "Please briefly describe your medical condition (at least 30 characters).",
+    "conditionMax": "Description must not exceed 1000 characters.",
+    "timelineRequired": "Please select a timeline.",
+    "visitedRequired": "Please select an option.",
+    "companionRequired": "Please select an option.",
+    "serverError": "Something went wrong. Please try again.",
+    "successTitle": "Thank You",
+    "successMessage": "Your medical inquiry has been received. Our care team will review your information and respond within 24 hours.",
+    "returnHome": "Return to Home"
+  },
+  "Upload": {
+    "title": "Upload Medical Reports (Optional)",
+    "info": "Upload reports such as diagnosis, scans, or doctor recommendations (PDF, JPG, PNG, ZIP, max 10MB).",
+    "chooseFiles": "Choose Files",
+    "sizeError": "File size must be less than 10MB.",
+    "typeError": "Unsupported file format. Please upload PDF, JPG, PNG, or ZIP."
+  },
+  "PrivacyNotice": {
+    "text": "All medical information shared with MedicTour Global is handled with strict confidentiality and used only for medical evaluation purposes."
+  },
+  "WhatsAppCTA": {
+    "title": "Prefer speaking directly with our team?",
+    "button": "Chat on WhatsApp"
+  },
+  "FinalReassurance": {
+    "title": "Our Care Team Is Here to Support You",
+    "text": "Every inquiry is reviewed carefully by our team. We guide patients step by step to help them understand treatment options and plan their medical journey safely."
+  }
+}

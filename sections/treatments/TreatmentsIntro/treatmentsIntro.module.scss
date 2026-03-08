@@ -1,0 +1,31 @@
+.introSection {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 30px;
+}
+
+.description {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #4b5565;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,29 @@
+.safetySection {
+  padding: 60px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.desc {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #4b5565;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .desc {
+    font-size: 1rem;
+  }
+}

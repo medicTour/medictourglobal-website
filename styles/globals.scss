@@ -1,0 +1,71 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--color-text);
+  background: var(--color-white);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+section {
+  scroll-margin-top: 140px;
+}
+
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 30px;
+
+    a {
+      text-decoration: none;
+      color: var(--color-text);
+      font-weight: 500;
+    }
+  }
+
+  &__lang {
+    display: flex;
+    gap: 10px;
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      opacity: 0.6;
+    }
+
+    .active {
+      opacity: 1;
+      font-weight: 700;
+    }
+  }
+}
+
