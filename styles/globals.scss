@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@use "./variables.scss";
 
 * {
   box-sizing: border-box;
@@ -68,4 +68,5 @@ section {
     }
   }
 }
+
 
