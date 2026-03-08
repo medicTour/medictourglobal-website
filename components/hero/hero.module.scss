@@ -1,0 +1,178 @@
+.heroSection {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.heroSwiper {
+  height: 100%;
+}
+
+.heroSlide {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Background layer – initial scale slightly zoomed in */
+.heroBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+/* Ken Burns zoom – slow zoom in when slide is active (desktop default) */
+.zoom {
+  animation: kenburns 6s linear forwards;
+}
+
+@keyframes kenburns {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+
+/* Overlay – solid dark for better text contrast */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* Text content container */
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+  color: #ffffff;
+}
+
+.smallText {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: var(--color-accent);
+}
+
+.heroContent h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: var(--color-accent);
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 520px;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 15px 38px;
+  background: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.heroButton:hover {
+  opacity: 0.9;
+}
+
+/* Desktop: offset for fixed header (top bar + main nav) */
+@media (min-width: 769px) {
+  .heroSection {
+    padding-top: 80px;
+    height: 100vh;
+  }
+  .heroContent {
+    margin-top: 30px;
+  }
+  .heroSlide {
+    height: calc(100vh - 80px);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .heroSection {
+    padding-top: 120px;
+  }
+
+  .heroBg {
+    background-size: cover;
+    background-position: right center;
+  }
+
+  /* Reduce zoom range on mobile to minimize cropping */
+  .zoom {
+    animation: kenburns-mobile 6s linear forwards;
+  }
+
+  @keyframes kenburns-mobile {
+    from {
+      transform: scale(1.02);
+    }
+    to {
+      transform: scale(1.08);
+    }
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* slightly darker for readability */
+  }
+
+  .heroContent {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0 15px;
+  }
+
+  .smallText {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .heroContent h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .heroButton {
+    padding: 12px 30px;
+    width: auto;
+  }
+}

@@ -1,0 +1,86 @@
+.costSection {
+  padding: 60px 0;
+  background-color: #f8fafc;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4b5565;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  font-size: 1rem;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #edf1f5;
+}
+
+.table th,
+.table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #edf1f5;
+}
+
+.table th {
+  background-color: #f8fafc;
+  font-weight: 600;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.table td {
+  color: #1f2937;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.highlight {
+  background-color: #e6f7f5;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .table th,
+  .table td {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+}

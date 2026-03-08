@@ -1,0 +1,138 @@
+.journeySection {
+  padding: 80px 0;
+  background-color: #f8fafc;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4b5565;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  line-height: 1.6;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
+/* Optional connector line between cards (desktop) */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 60px; /* aligns with stepNumber center */
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background: #e5e7eb;
+  z-index: 0;
+}
+
+.stepCard {
+  flex: 1 1 200px;
+  max-width: 220px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px 15px 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid #edf1f5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+  background: white;
+  text-align: center;
+}
+
+.stepCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stepHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: var(--color-accent);
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iconWrapper {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f7fa;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stepTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.stepDesc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #4b5565;
+  margin-bottom: 0;
+}
+
+/* Hide the connector line on tablet/mobile */
+@media (max-width: 992px) {
+  .timeline::before {
+    display: none;
+  }
+  .timeline {
+    gap: 20px;
+  }
+  .stepCard {
+    max-width: 300px;
+    flex: 1 1 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stepCard {
+    max-width: 100%;
+    width: 100%;
+  }
+}

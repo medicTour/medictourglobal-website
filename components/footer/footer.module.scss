@@ -1,0 +1,155 @@
+.footer {
+  background-color: #0e2a33; /* dark teal, medical authority */
+  color: #ffffff;
+  padding: 60px 0 30px;
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  filter: brightness(0) invert(1); /* make logo white if needed, adjust */
+}
+
+.aboutText {
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.columnTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  margin-bottom: 10px;
+}
+
+.linkList a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.linkList a:hover {
+  color: var(--color-accent);
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  margin-bottom: 12px;
+}
+
+.contactList a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactList a:hover {
+  color: var(--color-accent);
+}
+
+.contactList img {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(0.8);
+}
+
+.socialRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0 20px;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease;
+}
+
+.socialLink:hover {
+  background: var(--color-accent);
+}
+
+.socialLink img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .column {
+    text-align: center;
+  }
+  .columnTitle {
+    display: block;
+    text-align: center;
+  }
+  .contactList a {
+    justify-content: center;
+  }
+  .socialRow {
+    gap: 15px;
+  }
+}
