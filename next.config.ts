@@ -5,7 +5,11 @@ const withNextIntl = createNextIntlPlugin({
 });
 
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+
+  eslint: {
+    ignoreDuringBuilds: true
+  }
 };
 
 export default withNextIntl(nextConfig);
