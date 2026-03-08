@@ -1,0 +1,32 @@
+{
+  "name": "medictour-global",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NEXT_DISABLE_TURBOPACK=1 && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "framer-motion": "^12.34.3",
+    "next": "15.2.0",
+    "next-intl": "^4.8.3",
+    "nodemailer": "^8.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.71.2",
+    "sass": "^1.97.3",
+    "swiper": "^12.1.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "typescript": "^5"
+  }
+}
