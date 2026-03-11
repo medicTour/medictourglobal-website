@@ -499,8 +499,9 @@
       "title": "Treatments",
       "cardiac": "Cardiac Surgery",
       "orthopedic": "Orthopedic Surgery",
-      "spine": "Spine Surgery",
-      "ivf": "IVF Treatment",
+      "cancer": "Cancer Treatment",
+      "cosmetic": "Cosmetic Surgery",
+      "fertility": "Fertility Treatment",
       "transplant": "Organ Transplant"
     },
     "regions": {
@@ -516,6 +517,11 @@
       "whatsapp": "WhatsApp"
     },
     "copyright": "© 2026 Medictour Global. All rights reserved."
+  },
+  "TreatmentDetailCTA": {
+    "title": "Speak With Our Medical Coordination Team",
+    "subtitle": "Share your medical reports and receive guidance from experienced specialists.",
+    "button": "Start Medical Inquiry"
   },
   "TreatmentDetail": {
     "cardiac-surgery": {
@@ -662,30 +668,231 @@
         ]
       }
     },
-    "ivf-treatment": {
+    "cancer-treatment": {
       "hero": {
-        "title": "IVF Treatment in India",
-        "subtitle": "Advanced fertility treatments supported by experienced specialists.",
-        "description": "IVF treatment helps couples experiencing fertility challenges achieve pregnancy. India offers modern fertility clinics and experienced specialists providing personalized reproductive care.",
+        "title": "Cancer Treatment in India",
+        "subtitle": "Comprehensive oncology care supported by modern diagnostic tools and advanced treatment approaches.",
+        "description": "Cancer treatment in India offers patients access to experienced oncologists, modern radiation and chemotherapy facilities, and multidisciplinary care teams. Patients from around the world choose India for its advanced treatment options and cost-effective care.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Cancer",
+        "description": "Cancer is a group of diseases characterized by abnormal cell growth that can invade other parts of the body. Treatment depends on the type, location, and stage of cancer, and may involve surgery, radiation, chemotherapy, or targeted therapies."
+      },
+      "symptoms": {
+        "title": "Common Symptoms",
+        "items": [
+          "Unexplained weight loss",
+          "Persistent fatigue",
+          "Lumps or thickening under the skin",
+          "Changes in skin (yellowing, darkening, or redness)",
+          "Persistent cough or trouble breathing"
+        ]
+      },
+      "procedures": {
+        "title": "Cancer Treatment Options",
+        "items": [
+          {
+            "title": "Surgical Oncology",
+            "desc": "Removal of cancerous tumors and affected tissue by specialized surgeons."
+          },
+          {
+            "title": "Radiation Therapy",
+            "desc": "High-energy radiation to shrink tumors and kill cancer cells."
+          },
+          {
+            "title": "Chemotherapy",
+            "desc": "Use of drugs to stop the growth of cancer cells."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Treatment",
+        "items": [
+          "Improved survival rates",
+          "Reduced symptoms and pain",
+          "Better quality of life",
+          "Access to advanced therapies"
+        ]
+      },
+      "process": {
+        "title": "Treatment Process",
+        "steps": [
+          "Medical report review by oncologists",
+          "Diagnostic tests and staging",
+          "Personalized treatment planning",
+          "Treatment delivery and monitoring",
+          "Follow-up care and recovery"
+        ]
+      },
+      "cost": {
+        "title": "Treatment Cost Overview",
+        "description": "Cancer treatment costs in India are significantly lower than in many Western countries while maintaining high standards of care. The final cost depends on the type and stage of cancer, hospital choice, and treatment duration."
+      },
+      "recovery": {
+        "title": "Recovery and Aftercare",
+        "description": "Recovery time varies depending on the treatment. Patients may need several weeks to months for full recovery, with regular follow-ups to monitor progress."
+      },
+      "faq": [
+        {
+          "q": "How long do cancer patients stay in India?",
+          "a": "The duration depends on the treatment plan. Surgery may require 2‑4 weeks, while radiation or chemotherapy can take several months with periodic visits."
+        },
+        {
+          "q": "Can I get a second opinion from Indian oncologists?",
+          "a": "Yes, you can share your reports for a second opinion before deciding on treatment."
+        }
+      ]
+    },
+    "cosmetic-surgery": {
+      "hero": {
+        "title": "Cosmetic Surgery in India",
+        "subtitle": "Safe and personalized aesthetic procedures performed by qualified plastic surgeons.",
+        "description": "Cosmetic surgery helps enhance appearance and boost confidence. India offers advanced facilities and experienced surgeons for procedures such as rhinoplasty, breast augmentation, liposuction, and facelifts at affordable costs.",
+        "cta": "Start Medical Inquiry"
+      },
+      "condition": {
+        "title": "Understanding Cosmetic Surgery",
+        "description": "Cosmetic surgery is performed to reshape normal structures of the body to improve appearance and self-esteem. It includes both surgical and non‑surgical procedures."
+      },
+      "symptoms": {
+        "title": "Common Reasons for Cosmetic Surgery",
+        "items": [
+          "Dissatisfaction with facial features",
+          "Desire for breast enhancement or reduction",
+          "Excess fat resistant to diet and exercise",
+          "Aging signs like wrinkles or sagging skin",
+          "Post‑weight loss body contouring"
+        ]
+      },
+      "procedures": {
+        "title": "Popular Cosmetic Procedures",
+        "items": [
+          {
+            "title": "Rhinoplasty",
+            "desc": "Reshaping the nose for aesthetic or functional improvement."
+          },
+          {
+            "title": "Breast Augmentation",
+            "desc": "Enlargement of breasts using implants or fat transfer."
+          },
+          {
+            "title": "Liposuction",
+            "desc": "Removal of excess fat from specific areas."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Cosmetic Surgery",
+        "items": [
+          "Enhanced appearance",
+          "Increased self‑confidence",
+          "Long‑lasting results",
+          "Improved physical proportions"
+        ]
+      },
+      "process": {
+        "title": "Treatment Process",
+        "steps": [
+          "Initial consultation with surgeon",
+          "Pre‑operative assessment",
+          "Surgery performed under anesthesia",
+          "Recovery and follow‑up"
+        ]
+      },
+      "cost": {
+        "title": "Treatment Cost Overview",
+        "description": "Cosmetic surgery costs in India are a fraction of those in Western countries, with no compromise on quality. The final cost depends on the procedure, surgeon, and hospital."
+      },
+      "recovery": {
+        "title": "Recovery and Aftercare",
+        "description": "Recovery times vary by procedure. Most patients can resume normal activities within 2‑4 weeks, with full results visible after several months."
+      },
+      "faq": [
+        {
+          "q": "How long do I need to stay in India for cosmetic surgery?",
+          "a": "Typically 2‑3 weeks for surgery and initial recovery, with follow‑up consultations before returning home."
+        },
+        {
+          "q": "Is cosmetic surgery safe in India?",
+          "a": "Yes, when performed by qualified plastic surgeons in accredited hospitals. Our partner hospitals meet international safety standards."
+        }
+      ]
+    },
+    "fertility-treatment": {
+      "hero": {
+        "title": "Fertility Treatment in India",
+        "subtitle": "Advanced reproductive care supported by experienced fertility specialists.",
+        "description": "India has become a leading destination for fertility treatments such as IVF, ICSI, and egg freezing. Patients benefit from modern laboratories, high success rates, and compassionate care at affordable costs.",
         "cta": "Start Medical Inquiry"
       },
       "condition": {
         "title": "Understanding Fertility Challenges",
-        "description": "Infertility may occur due to hormonal imbalances, reproductive health conditions, or unexplained factors. IVF treatment may provide an effective option for many couples."
+        "description": "Infertility affects many couples and can be caused by various factors in either partner. Treatments range from medication to assisted reproductive technologies like IVF."
+      },
+      "symptoms": {
+        "title": "When to Seek Help",
+        "items": [
+          "Inability to conceive after 1 year of trying",
+          "Irregular menstrual cycles",
+          "Known reproductive health issues",
+          "Advanced maternal age"
+        ]
       },
       "procedures": {
         "title": "Fertility Treatment Options",
         "items": [
           {
             "title": "In Vitro Fertilization (IVF)",
-            "desc": "Eggs and sperm are combined in a laboratory to create embryos."
+            "desc": "Eggs are fertilized with sperm in a lab, then transferred to the uterus."
           },
           {
-            "title": "ICSI Treatment",
+            "title": "ICSI",
             "desc": "A single sperm is injected into an egg to assist fertilization."
+          },
+          {
+            "title": "Egg Freezing",
+            "desc": "Eggs are harvested and frozen for future use."
           }
         ]
-      }
+      },
+      "benefits": {
+        "title": "Benefits of Treatment",
+        "items": [
+          "High success rates",
+          "Advanced laboratory technology",
+          "Experienced embryologists",
+          "Supportive care"
+        ]
+      },
+      "process": {
+        "title": "Treatment Process",
+        "steps": [
+          "Initial consultation and fertility assessment",
+          "Stimulation and monitoring",
+          "Egg retrieval and fertilization",
+          "Embryo transfer",
+          "Pregnancy test and follow‑up"
+        ]
+      },
+      "cost": {
+        "title": "Treatment Cost Overview",
+        "description": "Fertility treatment in India is significantly more affordable than in many countries, with transparent pricing and high‑quality care. Costs vary depending on the number of cycles and additional procedures."
+      },
+      "recovery": {
+        "title": "Recovery and Aftercare",
+        "description": "Recovery from egg retrieval is usually quick, with mild discomfort. After embryo transfer, patients can resume normal activities with some precautions."
+      },
+      "faq": [
+        {
+          "q": "How long does an IVF cycle take?",
+          "a": "A complete IVF cycle takes about 4‑6 weeks from start to pregnancy test."
+        },
+        {
+          "q": "What is the success rate of IVF in India?",
+          "a": "Success rates vary by age and diagnosis, but many clinics report rates comparable to international standards."
+        }
+      ]
     },
     "organ-transplant": {
       "hero": {
@@ -1095,7 +1302,12 @@
     "serverError": "Something went wrong. Please try again.",
     "successTitle": "Thank You",
     "successMessage": "Your medical inquiry has been received. Our care team will review your information and respond within 24 hours.",
-    "returnHome": "Return to Home"
+    "returnHome": "Return to Home",
+    "uploadTitle": "Upload Medical Reports",
+    "uploadInfo": "Upload reports such as diagnosis, scans, or doctor recommendations (PDF, JPG, PNG, ZIP, max 10MB).",
+    "fileRequired": "Please upload at least one medical report.",
+    "fileSizeError": "Each file must be less than 10MB.",
+    "fileTypeError": "Unsupported file format. Please upload PDF, JPG, PNG, or ZIP."
   },
   "Upload": {
     "title": "Upload Medical Reports (Optional)",
