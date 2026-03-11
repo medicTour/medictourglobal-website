@@ -1,16 +1,19 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import styles from './TreatmentCTA.module.scss';
 
 export default function TreatmentCTA() {
+  const t = useTranslations('TreatmentDetailCTA');
+
   return (
     <section className={styles.cta}>
       <div className="container">
-        <h2>Speak With Our Medical Coordination Team</h2>
-        <p>Share your medical reports and receive guidance from experienced specialists.</p>
+        <h2>{t('title')}</h2>
+        <p>{t('subtitle')}</p>
         <Link href="/contact" className={styles.button}>
-          Start Medical Inquiry
+          {t('button')}
         </Link>
       </div>
     </section>

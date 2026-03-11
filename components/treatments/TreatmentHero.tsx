@@ -2,18 +2,11 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import styles from './TreatmentHero.module.scss';
 
-const slugToIndex: Record<string, number> = {
-  'cardiac-surgery': 0,
-  'orthopedic-surgery': 1,
-  'spine-surgery': 2,
-  'ivf-treatment': 3,
-  'organ-transplant': 4,
-};
-
 interface TreatmentHeroProps {
-  slug: string;
+  slug?: string;
   data: {
     title: string;
     subtitle: string;
@@ -22,27 +15,27 @@ interface TreatmentHeroProps {
   };
 }
 
-export default function TreatmentHero({ slug, data }: TreatmentHeroProps) {
-  const index = slugToIndex[slug];
-  // Correct path: treatment-1.png, treatment-2.png, etc.
-  const imageSrc = index !== undefined
-    ? `/icons/treatments/treatment-${index + 1}.png`
-    : '/icons/treatments/placeholder.png';
+export default function TreatmentHero({ slug: propSlug, data }: TreatmentHeroProps) {
+  const params = useParams();
+  const slug = propSlug || (params?.slug as string);
+  const heroImageSrc = slug
+    ? `/images/treatments/hero/${slug}-hero.png`
+    : '/images/treatments/hero/placeholder.png';
 
   return (
     <section className={styles.hero}>
-      <div className={styles.bgWrapper}>
+      <div className={styles.imageWrapper}>
         <Image
-          src={imageSrc}
-          alt=""
-          fill
+          src={heroImageSrc}
+          alt={data.title}
+          width={1200}
+          height={600}
           priority
-          className={styles.bgImage}
+          className={styles.image}
           onError={(e) => {
-            e.currentTarget.src = '/icons/treatments/placeholder.png';
+            e.currentTarget.src = '/images/treatments/hero/placeholder.png';
           }}
         />
-        <div className={styles.overlay} />
       </div>
       <div className={`container ${styles.content}`}>
         <h1>{data.title}</h1>

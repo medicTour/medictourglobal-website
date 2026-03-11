@@ -34,6 +34,8 @@ const SOCIAL_LINKS = [
   },
 ];
 
+
+
 export default function Footer() {
   const t = useTranslations("Footer");
 
@@ -44,13 +46,15 @@ export default function Footer() {
     { key: "uae", slug: "uae" },
   ];
   const locale = useLocale();
+
   const treatmentLinks = [
-    { key: "cardiac", slug: "cardiac-surgery", label: t("treatments.cardiac") },
-    { key: "orthopedic", slug: "orthopedic-surgery", label: t("treatments.orthopedic") },
-    { key: "spine", slug: "spine-surgery", label: t("treatments.spine") },
-    { key: "ivf", slug: "ivf-treatment", label: t("treatments.ivf") },
-    { key: "transplant", slug: "organ-transplant", label: t("treatments.transplant") },
-  ];
+  { slug: 'cardiac-surgery', key: 'cardiac', label: t('treatments.cardiac') },
+  { slug: 'orthopedic-surgery', key: 'orthopedic', label: t('treatments.orthopedic') },
+  { slug: 'cancer-treatment', key: 'cancer', label: t('treatments.cancer') },
+  { slug: 'cosmetic-surgery', key: 'cosmetic', label: t('treatments.cosmetic') },
+  { slug: 'fertility-treatment', key: 'fertility', label: t('treatments.fertility') },
+  { slug: 'organ-transplant', key: 'transplant', label: t('treatments.transplant') },
+];
 
   return (
     <footer className={styles.footer}>

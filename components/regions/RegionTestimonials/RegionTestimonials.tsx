@@ -18,7 +18,7 @@ export default function RegionTestimonials({ regionSlug }: RegionTestimonialsPro
         <div className={styles.grid}>
           {testimonials.map((item, index) => (
             <div key={index} className={styles.card}>
-              <p className={styles.text}>&ldquo;{item.text}&rdquo;</p>
+              <p className={styles.text}>"{item.text}"</p>
               <p className={styles.name}>— {item.name}</p>
             </div>
           ))}
@@ -26,5 +26,4 @@ export default function RegionTestimonials({ regionSlug }: RegionTestimonialsPro
       </div>
     </section>
   );
-
 }
