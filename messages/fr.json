@@ -1,16 +1,16 @@
 {
   "TopBar": {
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Discuter sur WhatsApp",
     "call": "Appelez-nous",
-    "email": "Envoyez-nous un email",
+    "email": "Envoyez-nous un e-mail",
     "language": "Langue"
   },
   "Nav": {
     "home": "Accueil",
     "about": "À propos",
     "treatments": "Traitements",
-    "journey": "Parcours Patient",
-    "regions": "Régions Mondiales",
+    "journey": "Parcours patient",
+    "regions": "Régions mondiales",
     "resources": "Ressources",
     "contact": "Contact",
     "regionsMenu": {
@@ -20,24 +20,24 @@
     }
   },
   "Hero": {
-    "cta": "Commencer votre demande",
+    "cta": "Commencez votre demande",
     "slide1": {
       "small": "Accompagnement des patients internationaux",
-      "title1": "Des soins médicaux",
+      "title1": "Soins médicaux",
       "title2": "en toute confiance",
-      "subtitle": "De votre première demande jusqu’à votre retour chez vous, nous coordonnons chaque étape avec clarté et attention."
+      "subtitle": "De votre première demande à votre retour chez vous, nous coordonnons chaque étape avec clarté et attention."
     },
     "slide2": {
       "small": "Des soins qui vous comprennent",
       "title1": "Traitement personnalisé",
       "title2": "avec une attention humaine",
-      "subtitle": "Nous vous mettons en relation avec des spécialistes reconnus tout en garantissant confort, transparence et soutien tout au long de votre parcours."
+      "subtitle": "Nous vous mettons en relation avec des spécialistes de confiance tout en garantissant confort, transparence et soutien tout au long de votre parcours."
     },
     "slide3": {
-      "small": "Réseau médical international fiable",
+      "small": "Réseau mondial de confiance",
       "title1": "Accédez aux meilleurs médecins",
       "title2": "au-delà des frontières",
-      "subtitle": "Des hôpitaux partenaires et des équipes médicales expérimentées offrant des solutions de traitement sûres et avancées."
+      "subtitle": "Des hôpitaux partenaires et des équipes médicales expérimentées proposant des solutions de traitement sûres, éthiques et avancées."
     }
   },
   "Trust": {
@@ -45,19 +45,19 @@
     "items": {
       "care": {
         "title": "Coordination de soins personnalisée",
-        "description": "Chaque parcours médical est unique. Nos coordinateurs vous accompagnent de l’examen médical jusqu’au voyage et à la récupération."
+        "description": "Chaque parcours médical est unique. Nos coordinateurs vous guident pas à pas, de l'examen médical au voyage et à la récupération."
       },
       "specialists": {
         "title": "Spécialistes expérimentés",
-        "description": "Nous collaborons avec des médecins qualifiés et des spécialistes reconnus internationalement dans les principaux hôpitaux en Inde."
+        "description": "Nous collaborons avec des médecins qualifiés et des spécialistes reconnus internationalement dans les principaux hôpitaux indiens."
       },
       "facilities": {
         "title": "Installations médicales avancées",
-        "description": "Accédez à des hôpitaux modernes équipés de technologies médicales avancées et respectant des normes internationales."
+        "description": "Accédez à des hôpitaux modernes équipés de technologies médicales de pointe et de normes de soins accréditées au niveau international."
       },
       "ethics": {
         "title": "Conseils éthiques et transparents",
-        "description": "Communication médicale claire, orientation honnête et décisions centrées sur le patient à chaque étape."
+        "description": "Communication médicale claire, conseils thérapeutiques honnêtes et décisions centrées sur le patient à chaque étape."
       }
     }
   },
@@ -71,11 +71,11 @@
       },
       {
         "title": "Chirurgie orthopédique",
-        "desc": "Remplacement articulaire et soins orthopédiques avec techniques chirurgicales modernes."
+        "desc": "Remplacement articulaire et soins orthopédiques avec des techniques chirurgicales modernes."
       },
       {
         "title": "Traitement du cancer",
-        "desc": "Soins oncologiques complets avec options thérapeutiques avancées."
+        "desc": "Soins oncologiques complets avec des options thérapeutiques avancées."
       },
       {
         "title": "Chirurgie esthétique",
@@ -83,7 +83,7 @@
       },
       {
         "title": "Traitement de la fertilité",
-        "desc": "FIV et traitements de procréation assistée par des spécialistes expérimentés."
+        "desc": "Traitements de FIV et de procréation assistée soutenus par des spécialistes expérimentés."
       },
       {
         "title": "Transplantation d'organes",
@@ -92,34 +92,34 @@
     ]
   },
   "Journey": {
-    "sectionTitle": "Votre Parcours de Traitement",
+    "sectionTitle": "Votre parcours de traitement",
     "sectionSubtitle": "Un processus clair et guidé conçu pour accompagner les patients internationaux à chaque étape de leur voyage médical.",
     "steps": [
       {
-        "title": "Envoyer une Demande",
-        "description": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe. Nous examinons votre cas de manière confidentielle."
+        "title": "Soumettre une demande",
+        "description": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe soignante. Nous examinons votre cas en toute confidentialité et commençons à évaluer les meilleures options de traitement."
       },
       {
-        "title": "Évaluation Médicale",
-        "description": "Nos médecins partenaires analysent votre dossier et proposent des avis spécialisés et des options de traitement."
+        "title": "Évaluation médicale",
+        "description": "Nos médecins partenaires examinent votre cas et fournissent des avis d'experts ainsi que des plans de traitement recommandés."
       },
       {
-        "title": "Planification du Traitement",
-        "description": "Nous préparons un plan clair incluant l'hôpital recommandé, le coût estimé et la durée du séjour."
+        "title": "Planification du traitement",
+        "description": "Nous préparons un plan de traitement clair comprenant la sélection de l'hôpital, le coût estimé et la durée prévue du séjour."
       },
       {
-        "title": "Voyage et Admission",
-        "description": "Notre équipe vous accompagne pour le voyage, l'accueil à l'aéroport, l'admission à l'hôpital et l'hébergement."
+        "title": "Voyage et admission",
+        "description": "Notre équipe vous aide dans la planification du voyage, l'accueil à l'aéroport, l'admission à l'hôpital et les modalités d'hébergement."
       },
       {
-        "title": "Récupération et Suivi",
-        "description": "Après le traitement, nous coordonnons la récupération et les consultations de suivi avec les médecins."
+        "title": "Récupération et suivi",
+        "description": "Après le traitement, nous soutenons la planification de la récupération et coordonnons les consultations de suivi avec vos médecins."
       }
     ]
   },
   "CostComparison": {
     "title": "Comparaison des coûts de traitement",
-    "subtitle": "Comparez les coûts typiques des traitements selon les régions et comprenez la valeur des soins en Inde.",
+    "subtitle": "Comparez les coûts typiques des traitements par région et comprenez l'intérêt de recevoir des soins en Inde.",
     "ctaText": "Vous voulez connaître le coût exact de votre traitement ?",
     "ctaButton": "Commencez votre demande",
     "treatments": [
@@ -131,14 +131,14 @@
         "india": "$7,000"
       },
       {
-        "name": "Remplacement du genou",
+        "name": "Prothèse du genou",
         "us": "$45,000",
         "uk": "£18,000",
         "eu": "€16,000",
         "india": "$5,000"
       },
       {
-        "name": "Remplacement de la hanche",
+        "name": "Prothèse de la hanche",
         "us": "$40,000",
         "uk": "£16,000",
         "eu": "€14,000",
@@ -162,7 +162,7 @@
   },
   "Regions": {
     "title": "Régions mondiales que nous servons",
-    "subtitle": "Nous accompagnons les patients internationaux avec une coordination médicale et une assistance de voyage personnalisée.",
+    "subtitle": "Nous accompagnons les patients internationaux avec une coordination médicale personnalisée et une assistance au voyage.",
     "items": [
       {
         "title": "Afrique",
@@ -172,7 +172,7 @@
       },
       {
         "title": "Royaume-Uni",
-        "description": "Aider les patients du Royaume-Uni à accéder à des traitements spécialisés avec des délais d'attente plus courts et des avantages en termes de coûts.",
+        "description": "Aider les patients britanniques à accéder à des traitements spécialisés avec des délais d'attente plus courts et des avantages en termes de coûts.",
         "button": "Explorer le Royaume-Uni",
         "slug": "uk"
       },
@@ -186,14 +186,14 @@
     "africa": {
       "hero": {
         "title": "Traitement médical en Inde pour les patients d'Afrique",
-        "subtitle": "Soins médicaux avancés avec un accompagnement fiable pour les patients en provenance d'Afrique.",
+        "subtitle": "Soins médicaux avancés avec un accompagnement fiable pour les patients en provenance des pays africains.",
         "description": "MedicTour Global accompagne les patients de toute l'Afrique qui recherchent des soins spécialisés en Inde. De l'évaluation médicale à l'assistance au voyage et au soutien post-opératoire, notre équipe coordonne chaque étape de votre parcours de soins.",
         "cta": "Commencez votre demande médicale"
       },
       "trust": {
         "title": "Pourquoi de nombreux patients d'Afrique choisissent l'Inde pour leurs soins",
         "affordable": {
-          "title": "Soins avancés à coût abordable",
+          "title": "Soins avancés à prix abordable",
           "desc": "Accédez à des soins de classe mondiale dans des hôpitaux modernes à des coûts nettement inférieurs à ceux de nombreux systèmes de santé internationaux."
         },
         "specialists": {
@@ -239,8 +239,8 @@
         ]
       },
       "cost": {
-        "title": "Soins abordables comparés à de nombreux pays",
-        "subtitle": "L'Inde offre des soins de haute qualité à des coûts significativement inférieurs tout en maintenant des normes médicales modernes et des soins spécialisés de qualité."
+        "title": "Soins abordables par rapport à de nombreux pays",
+        "subtitle": "L'Inde offre des soins de haute qualité à des coûts nettement inférieurs, tout en maintenant des normes médicales modernes et des soins spécialisés de qualité."
       },
       "hospitals": {
         "title": "Hôpitaux de confiance et médecins expérimentés",
@@ -255,7 +255,7 @@
           },
           {
             "name": "Mary – Nigeria",
-            "text": "Les installations de l'hôpital étaient excellentes et les médecins ont expliqué chaque chose clairement. Je me suis sentie confiante tout au long de mon traitement."
+            "text": "Les installations de l'hôpital étaient excellentes et les médecins ont tout expliqué clairement. Je me suis sentie en confiance tout au long de mon traitement."
           },
           {
             "name": "Ahmed – Tanzanie",
@@ -329,7 +329,7 @@
         ]
       },
       "cost": {
-        "title": "Soins abordables comparés aux coûts des soins de santé privés",
+        "title": "Soins abordables par rapport aux coûts des soins de santé privés",
         "subtitle": "L'Inde propose des traitements médicaux avancés avec des spécialistes expérimentés à une fraction du coût par rapport à de nombreux prestataires de soins privés."
       },
       "hospitals": {
@@ -359,7 +359,7 @@
           "Conseils pour la planification du voyage et les documents médicaux",
           "Accueil à l'aéroport et soutien au transport local",
           "Aide à l'hébergement près des hôpitaux",
-          "Coordination avec les hôpitaux et les spécialistes"
+          "Coordination avec les hôpitaux et les spécialistes médicaux"
         ]
       }
     },
@@ -434,11 +434,11 @@
             "text": "Le processus était organisé de manière très professionnelle et les médecins étaient hautement expérimentés."
           },
           {
-            "name": "Fatima – Abu Dhabi",
+            "name": "Fatima – Abou Dabi",
             "text": "Tout, de la consultation à la récupération, a été clairement expliqué et bien coordonné."
           },
           {
-            "name": "Omar – Sharjah",
+            "name": "Omar – Charjah",
             "text": "Les installations de l'hôpital et l'équipe médicale étaient excellentes et l'expérience a été très rassurante."
           }
         ]
@@ -455,7 +455,7 @@
     }
   },
   "Resources": {
-    "title": "Ressources de Voyage Médical",
+    "title": "Ressources de voyage médical",
     "subtitle": "Informations utiles pour vous guider à chaque étape de votre parcours médical.",
     "items": [
       {
@@ -471,8 +471,8 @@
         "slug": "treatment-options"
       },
       {
-        "title": "Récupération et soins après traitement",
-        "description": "Comprendre ce qui se passe après le traitement et comment préparer la récupération.",
+        "title": "Récupération et soins post-traitement",
+        "description": "Comprenez ce qui vous attend après le traitement et comment planifier une récupération en douceur.",
         "button": "Lire la suite",
         "slug": "recovery-aftercare"
       }
@@ -480,31 +480,32 @@
   },
   "CTA": {
     "title": "Commencez votre parcours médical",
-    "subtitle": "Notre équipe internationale accompagnera votre traitement, l'organisation du voyage et la coordination hospitalière.",
-    "button": "Commencer votre demande"
+    "subtitle": "Notre équipe internationale de patients vous guidera dans les options de traitement, la planification du voyage et la coordination hospitalière.",
+    "button": "Commencez votre demande"
   },
   "Footer": {
-    "about": "Medictour Global accompagne les patients internationaux recherchant des traitements médicaux fiables et abordables en Inde.",
+    "about": "Medictour Global accompagne les patients internationaux recherchant des traitements médicaux fiables et abordables en Inde. Notre équipe coordonne chaque étape de votre parcours médical.",
     "quickLinks": {
-      "title": "Liens Rapides",
+      "title": "Liens rapides",
       "home": "Accueil",
       "about": "À propos",
       "treatments": "Traitements",
-      "journey": "Parcours Patient",
-      "regions": "Régions Mondiales",
+      "journey": "Parcours patient",
+      "regions": "Régions mondiales",
       "resources": "Ressources",
       "contact": "Contact"
     },
     "treatments": {
       "title": "Traitements",
-      "cardiac": "Chirurgie Cardiaque",
-      "orthopedic": "Chirurgie Orthopédique",
-      "spine": "Chirurgie de la Colonne",
-      "ivf": "Traitement FIV",
-      "transplant": "Greffe d'Organes"
+      "cardiac": "Chirurgie cardiaque",
+      "orthopedic": "Chirurgie orthopédique",
+      "cancer": "Traitement du cancer",
+      "cosmetic": "Chirurgie esthétique",
+      "fertility": "Traitement de la fertilité",
+      "transplant": "Transplantation d'organes"
     },
     "regions": {
-      "title": "Régions Mondiales",
+      "title": "Régions mondiales",
       "africa": "Afrique",
       "uk": "Royaume-Uni",
       "uae": "Émirats Arabes Unis"
@@ -512,26 +513,428 @@
     "contact": {
       "title": "Contact",
       "phone": "Téléphone",
-      "email": "Email",
+      "email": "E-mail",
       "whatsapp": "WhatsApp"
     },
     "copyright": "© 2026 Medictour Global. Tous droits réservés."
   },
+  "TreatmentDetailCTA": {
+    "title": "Parlez avec notre équipe de coordination médicale",
+    "subtitle": "Partagez vos rapports médicaux et recevez des conseils de spécialistes expérimentés.",
+    "button": "Commencez votre demande médicale"
+  },
+  "TreatmentDetail": {
+    "cardiac-surgery": {
+      "hero": {
+        "title": "Chirurgie cardiaque en Inde",
+        "subtitle": "Procédures cardiaques avancées réalisées par des cardiologues expérimentés.",
+        "description": "La chirurgie cardiaque aide à traiter des affections cardiaques graves telles que les artères bouchées, les valves endommagées ou les malformations cardiaques congénitales. Des patients du monde entier se rendent en Inde pour bénéficier de chirurgiens cardiaques expérimentés, d'hôpitaux modernes et d'une technologie chirurgicale avancée.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre les maladies cardiaques",
+        "description": "Une maladie cardiaque peut se développer lorsque le flux sanguin vers le cœur est restreint ou lorsque les valves cardiaques ne fonctionnent pas correctement. Dans certains cas, une intervention chirurgicale peut être nécessaire pour restaurer la fonction cardiaque normale et améliorer la santé générale."
+      },
+      "symptoms": {
+        "title": "Symptômes courants",
+        "items": [
+          "Douleur ou gêne thoracique",
+          "Essoufflement",
+          "Fatigue pendant l'activité physique",
+          "Battements de cœur irréguliers",
+          "Gonflement des jambes ou des pieds"
+        ]
+      },
+      "procedures": {
+        "title": "Types d'interventions cardiaques",
+        "items": [
+          {
+            "title": "Pontage aorto-coronarien",
+            "desc": "Améliore le flux sanguin vers le cœur en contournant les artères bouchées."
+          },
+          {
+            "title": "Remplacement valvulaire cardiaque",
+            "desc": "Répare ou remplace les valves cardiaques endommagées pour rétablir un flux sanguin normal."
+          },
+          {
+            "title": "Chirurgie cardiaque mini-invasive",
+            "desc": "Utilise des incisions plus petites pour certaines procédures cardiaques, réduisant ainsi le temps de récupération."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Avantages du traitement",
+        "items": [
+          "Amélioration de la fonction cardiaque",
+          "Réduction des symptômes et de l'inconfort",
+          "Meilleure qualité de vie",
+          "Risque moindre de complications cardiaques"
+        ]
+      },
+      "process": {
+        "title": "Processus de traitement",
+        "steps": [
+          "Examen des rapports médicaux par des spécialistes",
+          "Planification personnalisée du traitement",
+          "Admission à l'hôpital et intervention chirurgicale",
+          "Surveillance postopératoire et récupération"
+        ]
+      },
+      "cost": {
+        "title": "Aperçu des coûts du traitement",
+        "description": "Les coûts de la chirurgie cardiaque en Inde sont nettement inférieurs à ceux de nombreux pays, tout en maintenant des normes médicales élevées. Le coût final dépend du choix de l'hôpital et de l'état du patient."
+      },
+      "recovery": {
+        "title": "Récupération et soins post-traitement",
+        "description": "Les patients restent généralement à l'hôpital de 5 à 7 jours après l'opération. Le temps de récupération peut varier en fonction de l'intervention et de l'état de santé général."
+      },
+      "faq": [
+        {
+          "q": "Combien de temps les patients restent-ils en Inde après une chirurgie cardiaque ?",
+          "a": "La plupart des patients restent environ deux à trois semaines pour permettre une récupération adéquate et des consultations de suivi."
+        },
+        {
+          "q": "Les médecins peuvent-ils examiner mes rapports avant mon voyage ?",
+          "a": "Oui, les patients peuvent partager leurs rapports médicaux pour évaluation avant de planifier le voyage."
+        }
+      ]
+    },
+    "orthopedic-surgery": {
+      "hero": {
+        "title": "Chirurgie orthopédique en Inde",
+        "subtitle": "Interventions avancées de remplacement articulaire et chirurgie orthopédique.",
+        "description": "La chirurgie orthopédique aide à traiter les affections des os, des articulations et des muscles. Les patients se rendent en Inde pour des procédures telles que le remplacement articulaire et le traitement des blessures sportives, réalisées par des spécialistes orthopédiques expérimentés.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre les affections orthopédiques",
+        "description": "Les affections orthopédiques peuvent se développer en raison du vieillissement, de blessures ou de maladies dégénératives affectant les os et les articulations. Un traitement chirurgical peut aider à restaurer la mobilité et à réduire la douleur."
+      },
+      "symptoms": {
+        "title": "Symptômes courants",
+        "items": [
+          "Douleur articulaire",
+          "Mobilité réduite",
+          "Gonflement ou raideur",
+          "Difficulté à marcher",
+          "Gêne articulaire chronique"
+        ]
+      },
+      "procedures": {
+        "title": "Types d'interventions orthopédiques",
+        "items": [
+          {
+            "title": "Prothèse du genou",
+            "desc": "Remplace les articulations du genou endommagées pour restaurer la mobilité."
+          },
+          {
+            "title": "Prothèse de la hanche",
+            "desc": "Améliore le mouvement en remplaçant les articulations de la hanche endommagées."
+          },
+          {
+            "title": "Chirurgie arthroscopique",
+            "desc": "Procédure mini-invasive utilisée pour diagnostiquer et traiter les problèmes articulaires."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Avantages du traitement",
+        "items": [
+          "Réduction de la douleur articulaire",
+          "Amélioration de la mobilité",
+          "Meilleurs niveaux d'activité physique",
+          "Qualité de vie améliorée"
+        ]
+      }
+    },
+    "spine-surgery": {
+      "hero": {
+        "title": "Chirurgie de la colonne vertébrale en Inde",
+        "subtitle": "Traitement avancé des troubles de la colonne vertébrale et des maux de dos.",
+        "description": "La chirurgie de la colonne vertébrale est pratiquée pour traiter des affections telles que les hernies discales, la sténose spinale et les déformations de la colonne vertébrale. Les techniques chirurgicales modernes aident à soulager la douleur et à restaurer la mobilité.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre les affections de la colonne vertébrale",
+        "description": "Les troubles de la colonne vertébrale peuvent affecter les nerfs, les disques ou les os de la colonne vertébrale. Dans certains cas, une intervention chirurgicale peut être nécessaire lorsque les traitements non chirurgicaux ne soulagent pas."
+      },
+      "symptoms": {
+        "title": "Symptômes courants",
+        "items": [
+          "Douleur dorsale chronique",
+          "Engourdissement ou picotements dans les membres",
+          "Faiblesse musculaire",
+          "Difficulté à se tenir debout ou à marcher"
+        ]
+      }
+    },
+    "cancer-treatment": {
+      "hero": {
+        "title": "Traitement du cancer en Inde",
+        "subtitle": "Soins oncologiques complets soutenus par des outils de diagnostic modernes et des approches thérapeutiques avancées.",
+        "description": "Le traitement du cancer en Inde offre aux patients l'accès à des oncologues expérimentés, à des installations modernes de radiothérapie et de chimiothérapie, et à des équipes de soins multidisciplinaires. Les patients du monde entier choisissent l'Inde pour ses options de traitement avancées et ses soins rentables.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre le cancer",
+        "description": "Le cancer est un groupe de maladies caractérisées par une croissance anormale des cellules pouvant envahir d'autres parties du corps. Le traitement dépend du type, de l'emplacement et du stade du cancer, et peut inclure la chirurgie, la radiothérapie, la chimiothérapie ou des thérapies ciblées."
+      },
+      "symptoms": {
+        "title": "Symptômes courants",
+        "items": [
+          "Perte de poids inexpliquée",
+          "Fatigue persistante",
+          "Masses ou épaississements sous la peau",
+          "Modifications de la peau (jaunissement, assombrissement ou rougeur)",
+          "Toux persistante ou difficulté à respirer"
+        ]
+      },
+      "procedures": {
+        "title": "Options de traitement du cancer",
+        "items": [
+          {
+            "title": "Chirurgie oncologique",
+            "desc": "Ablation des tumeurs cancéreuses et des tissus affectés par des chirurgiens spécialisés."
+          },
+          {
+            "title": "Radiothérapie",
+            "desc": "Rayonnements à haute énergie pour réduire les tumeurs et tuer les cellules cancéreuses."
+          },
+          {
+            "title": "Chimiothérapie",
+            "desc": "Utilisation de médicaments pour arrêter la croissance des cellules cancéreuses."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Avantages du traitement",
+        "items": [
+          "Amélioration des taux de survie",
+          "Réduction des symptômes et de la douleur",
+          "Meilleure qualité de vie",
+          "Accès à des thérapies avancées"
+        ]
+      },
+      "process": {
+        "title": "Processus de traitement",
+        "steps": [
+          "Examen des rapports médicaux par des oncologues",
+          "Tests diagnostiques et stadification",
+          "Planification personnalisée du traitement",
+          "Administration du traitement et suivi",
+          "Soins de suivi et récupération"
+        ]
+      },
+      "cost": {
+        "title": "Aperçu des coûts du traitement",
+        "description": "Les coûts du traitement du cancer en Inde sont nettement inférieurs à ceux de nombreux pays occidentaux, tout en maintenant des normes de soins élevées. Le coût final dépend du type et du stade du cancer, du choix de l'hôpital et de la durée du traitement."
+      },
+      "recovery": {
+        "title": "Récupération et soins post-traitement",
+        "description": "Le temps de récupération varie selon le traitement. Les patients peuvent avoir besoin de plusieurs semaines à plusieurs mois pour une récupération complète, avec un suivi régulier pour surveiller les progrès."
+      },
+      "faq": [
+        {
+          "q": "Combien de temps les patients atteints de cancer restent-ils en Inde ?",
+          "a": "La durée dépend du plan de traitement. La chirurgie peut nécessiter 2 à 4 semaines, tandis que la radiothérapie ou la chimiothérapie peuvent prendre plusieurs mois avec des visites périodiques."
+        },
+        {
+          "q": "Puis-je obtenir un deuxième avis d'oncologues indiens ?",
+          "a": "Oui, vous pouvez partager vos rapports pour un deuxième avis avant de décider du traitement."
+        }
+      ]
+    },
+    "cosmetic-surgery": {
+      "hero": {
+        "title": "Chirurgie esthétique en Inde",
+        "subtitle": "Procédures esthétiques sûres et personnalisées réalisées par des chirurgiens plasticiens qualifiés.",
+        "description": "La chirurgie esthétique aide à améliorer l'apparence et à renforcer la confiance en soi. L'Inde offre des installations avancées et des chirurgiens expérimentés pour des procédures telles que la rhinoplastie, l'augmentation mammaire, la liposuccion et le lifting du visage à des coûts abordables.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre la chirurgie esthétique",
+        "description": "La chirurgie esthétique vise à remodeler les structures normales du corps pour améliorer l'apparence et l'estime de soi. Elle comprend à la fois des procédures chirurgicales et non chirurgicales."
+      },
+      "symptoms": {
+        "title": "Raisons courantes de recourir à la chirurgie esthétique",
+        "items": [
+          "Insatisfaction concernant les traits du visage",
+          "Désir d'augmentation ou de réduction mammaire",
+          "Excès de graisse résistant au régime et à l'exercice",
+          "Signes de vieillissement comme les rides ou le relâchement cutané",
+          "Remodelage corporel après une perte de poids"
+        ]
+      },
+      "procedures": {
+        "title": "Procédures esthétiques courantes",
+        "items": [
+          {
+            "title": "Rhinoplastie",
+            "desc": "Remodelage du nez pour une amélioration esthétique ou fonctionnelle."
+          },
+          {
+            "title": "Augmentation mammaire",
+            "desc": "Augmentation de la taille des seins par implants ou transfert de graisse."
+          },
+          {
+            "title": "Liposuccion",
+            "desc": "Élimination de l'excès de graisse de zones spécifiques."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Avantages de la chirurgie esthétique",
+        "items": [
+          "Amélioration de l'apparence",
+          "Augmentation de la confiance en soi",
+          "Résultats durables",
+          "Amélioration des proportions physiques"
+        ]
+      },
+      "process": {
+        "title": "Processus de traitement",
+        "steps": [
+          "Consultation initiale avec le chirurgien",
+          "Évaluation préopératoire",
+          "Chirurgie sous anesthésie",
+          "Récupération et suivi"
+        ]
+      },
+      "cost": {
+        "title": "Aperçu des coûts du traitement",
+        "description": "Les coûts de la chirurgie esthétique en Inde ne représentent qu'une fraction de ceux des pays occidentaux, sans compromis sur la qualité. Le coût final dépend de la procédure, du chirurgien et de l'hôpital."
+      },
+      "recovery": {
+        "title": "Récupération et soins post-traitement",
+        "description": "Les temps de récupération varient selon la procédure. La plupart des patients peuvent reprendre leurs activités normales en 2 à 4 semaines, avec des résultats complets visibles après plusieurs mois."
+      },
+      "faq": [
+        {
+          "q": "Combien de temps dois-je rester en Inde pour une chirurgie esthétique ?",
+          "a": "Généralement 2 à 3 semaines pour la chirurgie et la récupération initiale, avec des consultations de suivi avant le retour à domicile."
+        },
+        {
+          "q": "La chirurgie esthétique est-elle sûre en Inde ?",
+          "a": "Oui, lorsqu'elle est pratiquée par des chirurgiens plasticiens qualifiés dans des hôpitaux accrédités. Nos hôpitaux partenaires respectent les normes de sécurité internationales."
+        }
+      ]
+    },
+    "fertility-treatment": {
+      "hero": {
+        "title": "Traitement de la fertilité en Inde",
+        "subtitle": "Soins de procréation avancés soutenus par des spécialistes de la fertilité expérimentés.",
+        "description": "L'Inde est devenue une destination de premier plan pour les traitements de fertilité tels que la FIV, l'ICSI et la congélation d'ovules. Les patients bénéficient de laboratoires modernes, de taux de réussite élevés et de soins attentionnés à des coûts abordables.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Comprendre les problèmes de fertilité",
+        "description": "L'infertilité touche de nombreux couples et peut être causée par divers facteurs chez l'un ou l'autre des partenaires. Les traitements vont des médicaments aux techniques de procréation assistée comme la FIV."
+      },
+      "symptoms": {
+        "title": "Quand demander de l'aide",
+        "items": [
+          "Incapacité de concevoir après 1 an d'essais",
+          "Cycles menstruels irréguliers",
+          "Problèmes de santé reproductive connus",
+          "Âge maternel avancé"
+        ]
+      },
+      "procedures": {
+        "title": "Options de traitement de la fertilité",
+        "items": [
+          {
+            "title": "FIV (Fécondation in vitro)",
+            "desc": "Les ovules sont fécondés avec des spermatozoïdes en laboratoire, puis transférés dans l'utérus."
+          },
+          {
+            "title": "ICSI",
+            "desc": "Un seul spermatozoïde est injecté dans un ovule pour faciliter la fécondation."
+          },
+          {
+            "title": "Congélation d'ovules",
+            "desc": "Les ovules sont prélevés et congelés pour une utilisation future."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Avantages du traitement",
+        "items": [
+          "Taux de réussite élevés",
+          "Technologie de laboratoire avancée",
+          "Embryologistes expérimentés",
+          "Soins de soutien"
+        ]
+      },
+      "process": {
+        "title": "Processus de traitement",
+        "steps": [
+          "Consultation initiale et évaluation de la fertilité",
+          "Stimulation et surveillance",
+          "Prélèvement d'ovules et fécondation",
+          "Transfert d'embryon",
+          "Test de grossesse et suivi"
+        ]
+      },
+      "cost": {
+        "title": "Aperçu des coûts du traitement",
+        "description": "Le traitement de la fertilité en Inde est nettement plus abordable que dans de nombreux pays, avec des prix transparents et des soins de haute qualité. Les coûts varient selon le nombre de cycles et les procédures supplémentaires."
+      },
+      "recovery": {
+        "title": "Récupération et soins post-traitement",
+        "description": "La récupération après le prélèvement d'ovules est généralement rapide, avec un léger inconfort. Après le transfert d'embryon, les patients peuvent reprendre leurs activités normales avec quelques précautions."
+      },
+      "faq": [
+        {
+          "q": "Combien de temps dure un cycle de FIV ?",
+          "a": "Un cycle complet de FIV prend environ 4 à 6 semaines, du début au test de grossesse."
+        },
+        {
+          "q": "Quel est le taux de réussite de la FIV en Inde ?",
+          "a": "Les taux de réussite varient selon l'âge et le diagnostic, mais de nombreuses cliniques rapportent des taux comparables aux normes internationales."
+        }
+      ]
+    },
+    "organ-transplant": {
+      "hero": {
+        "title": "Programmes de transplantation d'organes en Inde",
+        "subtitle": "Procédures de transplantation hautement spécialisées réalisées par des équipes médicales expérimentées.",
+        "description": "La transplantation d'organes offre un traitement salvateur aux patients souffrant d'insuffisance organique sévère. L'Inde dispose de centres de transplantation établis avec des spécialistes expérimentés et une infrastructure médicale avancée.",
+        "cta": "Commencez votre demande médicale"
+      },
+      "condition": {
+        "title": "Quand une transplantation d'organe peut-elle être nécessaire",
+        "description": "Une transplantation peut être nécessaire lorsque des organes vitaux comme le rein ou le foie cessent de fonctionner correctement et ne peuvent pas être traités par des médicaments seuls."
+      },
+      "procedures": {
+        "title": "Types de transplantations d'organes",
+        "items": [
+          {
+            "title": "Transplantation rénale",
+            "desc": "Remplace un rein défaillant par un rein de donneur sain."
+          },
+          {
+            "title": "Transplantation hépatique",
+            "desc": "Procédure vitale pour les patients atteints d'une maladie hépatique grave."
+          }
+        ]
+      }
+    }
+  },
   "About": {
     "hero": {
-      "title": "Guider les Patients Internationaux Vers des Soins Médicaux de Confiance",
+      "title": "Guider les patients internationaux vers des soins médicaux de confiance",
       "subtitle": "Medictour Global aide les patients internationaux à accéder à des hôpitaux de confiance et à des spécialistes expérimentés en Inde, tout en coordonnant le voyage, le traitement et le soutien au rétablissement avec soin et clarté."
     },
     "story": {
-      "title": "Notre Histoire",
+      "title": "Notre histoire",
       "text": "De nombreux patients internationaux ont du mal à trouver des informations médicales fiables et des hôpitaux dignes de confiance lorsqu'ils cherchent un traitement à l'étranger. Medictour Global a été fondée pour combler cette lacune en aidant les patients à entrer en contact avec des médecins expérimentés et des hôpitaux accrédités en Inde, tout en bénéficiant de conseils clairs tout au long de leur parcours médical."
     },
     "mission": {
-      "missionTitle": "Notre Mission",
+      "missionTitle": "Notre mission",
       "missionText": "Fournir un soutien transparent, coordonné et compatissant aux voyageurs médicaux internationaux.",
-      "visionTitle": "Notre Vision",
+      "visionTitle": "Notre vision",
       "visionText": "Devenir un partenaire mondial de confiance pour les patients recherchant des soins médicaux de haute qualité à l'étranger.",
-      "valuesTitle": "Nos Valeurs",
+      "valuesTitle": "Nos valeurs",
       "values": {
         "transparency": "Transparence",
         "patientFirst": "Soins centrés sur le patient",
@@ -540,49 +943,49 @@
       }
     },
     "trust": {
-      "title": "Pourquoi les Patients Nous Font Confiance",
+      "title": "Pourquoi les patients nous font confiance",
       "hospitals": {
-        "title": "Hôpitaux Certifiés",
+        "title": "Hôpitaux certifiés",
         "desc": "Nous collaborons avec des hôpitaux accrédités, reconnus pour leurs normes de qualité et leurs équipes médicales expérimentées."
       },
       "specialists": {
-        "title": "Spécialistes Expérimentés",
+        "title": "Spécialistes expérimentés",
         "desc": "Notre réseau comprend des médecins formés à l'international dans les principaux hôpitaux indiens."
       },
       "transparency": {
-        "title": "Communication Transparente",
+        "title": "Communication transparente",
         "desc": "Plans de traitement clairs, estimations de coûts et communication ouverte dès la première demande."
       },
       "support": {
-        "title": "Accompagnement Personnalisé",
-        "desc": "Des coordinateurs dédiés vous guident à chaque étape, de l'évaluation médicale au rétablissement."
+        "title": "Accompagnement personnalisé",
+        "desc": "Des coordinateurs dédiés vous guident à chaque étape, de l'examen médical à la récupération."
       }
     },
     "process": {
-      "title": "Comment Nous Travaillons",
+      "title": "Comment nous travaillons",
       "inquiry": {
         "title": "Demande",
         "desc": "Partagez vos besoins médicaux et vos rapports avec notre équipe."
       },
       "review": {
-        "title": "Évaluation Médicale",
+        "title": "Examen médical",
         "desc": "Nos spécialistes évaluent votre cas et suggèrent des options de traitement."
       },
       "planning": {
-        "title": "Planification du Traitement",
+        "title": "Planification du traitement",
         "desc": "Nous fournissons un plan clair avec le choix de l'hôpital et une estimation des coûts."
       },
       "travel": {
-        "title": "Coordination du Voyage",
+        "title": "Coordination du voyage",
         "desc": "Nous aidons pour le visa, le voyage et les formalités d'admission à l'hôpital."
       },
       "recovery": {
-        "title": "Récupération et Suivi",
+        "title": "Récupération et suivi",
         "desc": "Soutien pendant la récupération et consultations de suivi après le traitement."
       }
     },
     "global": {
-      "title": "Focus Patient International",
+      "title": "Focus patient international",
       "subtitle": "Soutien aux patients d'Afrique, du Royaume-Uni et des Émirats Arabes Unis.",
       "africa": {
         "title": "Afrique",
@@ -598,7 +1001,7 @@
       }
     },
     "cta": {
-      "title": "Parlez à Notre Équipe de Voyage Médical",
+      "title": "Parlez à notre équipe de voyage médical",
       "subtitle": "Nos coordinateurs patients sont prêts à vous guider dans les options de traitement et la planification du voyage.",
       "button": "Commencez votre demande"
     }
@@ -674,7 +1077,7 @@
   },
   "TreatmentCost": {
     "title": "Traitement abordable sans compromis sur la qualité",
-    "desc": "L'Inde offre des traitements médicaux avancés à des coûts nettement inférieurs à ceux de nombreux pays occidentaux tout en maintenant des normes de soins élevées."
+    "desc": "L'Inde offre des traitements médicaux avancés à des coûts nettement inférieurs à ceux de nombreux pays occidentaux, tout en maintenant des normes de soins élevées."
   },
   "TreatmentsCTA": {
     "title": "Discutez de vos options de traitement",
@@ -682,19 +1085,19 @@
     "button": "Commencez votre demande"
   },
   "JourneyHero": {
-    "title": "Votre parcours de soins",
-    "subtitle": "Un processus clair et bienveillant conçu pour guider les patients internationaux à chaque étape de leur voyage médical."
+    "title": "Votre parcours de traitement",
+    "subtitle": "Un processus clair et bienveillant conçu pour guider les patients internationaux à chaque étape de leur expérience de voyage médical."
   },
   "JourneyIntro": {
     "title": "Une expérience de voyage médical accompagnée",
     "desc": "Se rendre à l'étranger pour un traitement peut sembler complexe. MedicTour Global simplifie le processus en guidant les patients internationaux à chaque étape — de l'évaluation médicale et de la planification du traitement au soutien post-opératoire."
   },
   "JourneySteps": {
-    "title": "Votre parcours de soins",
+    "title": "Votre parcours de traitement",
     "steps": [
       {
         "title": "Soumettre une demande",
-        "desc": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe pour que nous puissions évaluer votre cas."
+        "desc": "Partagez vos rapports médicaux et vos préoccupations avec notre équipe soignante afin que nous puissions commencer à évaluer votre cas."
       },
       {
         "title": "Évaluation médicale",
@@ -727,7 +1130,7 @@
     "desc": "Nos hôpitaux partenaires disposent d'installations médicales modernes, de spécialistes expérimentés et d'équipes dédiées aux patients."
   },
   "RecoverySupport": {
-    "title": "Récupération et suivi post-traitement",
+    "title": "Récupération et soins post-traitement",
     "desc": "Après le traitement, nous aidons à planifier la récupération et coordonnons les consultations de suivi avec vos médecins."
   },
   "PatientSafety": {
@@ -756,8 +1159,8 @@
     ]
   },
   "JourneyCTA": {
-    "title": "Commencez votre parcours de soins",
-    "subtitle": "Partagez vos rapports médicaux avec notre équipe et recevez des conseils sur les options de traitement adaptées.",
+    "title": "Commencez votre parcours de traitement",
+    "subtitle": "Partagez vos rapports médicaux avec notre équipe soignante et recevez des conseils sur les options de traitement adaptées.",
     "button": "Soumettre une demande"
   },
   "ResourcesHero": {
@@ -820,11 +1223,11 @@
       },
       {
         "q": "Puis-je emmener un accompagnateur pendant le traitement ?",
-        "a": "Oui, nous encourageons les patients à voyager avec un membre de leur famille ou un accompagnateur."
+        "a": "Oui, les patients sont encouragés à voyager avec un membre de leur famille ou un accompagnateur."
       },
       {
         "q": "Comment partager mes rapports médicaux ?",
-        "a": "Vous pouvez soumettre vos rapports via notre formulaire de demande ou les envoyer par courriel à notre équipe de soins."
+        "a": "Vous pouvez soumettre vos rapports via notre formulaire de demande ou les envoyer par courriel à notre équipe soignante."
       }
     ]
   },
@@ -840,7 +1243,7 @@
   },
   "QuickContact": {
     "whatsapp": "Discuter sur WhatsApp",
-    "email": "Envoyer un e-mail à l'équipe",
+    "email": "Envoyer un e-mail à notre équipe",
     "responseTime": "Réponse sous 24h"
   },
   "InquiryIntro": {
@@ -899,7 +1302,12 @@
     "serverError": "Une erreur s'est produite. Veuillez réessayer.",
     "successTitle": "Merci",
     "successMessage": "Votre demande médicale a été reçue. Notre équipe examinera vos informations et vous répondra sous 24 heures.",
-    "returnHome": "Retour à l'accueil"
+    "returnHome": "Retour à l'accueil",
+    "uploadTitle": "Télécharger des rapports médicaux",
+    "uploadInfo": "Téléchargez des rapports tels que diagnostics, examens ou recommandations médicales (PDF, JPG, PNG, ZIP, max 10 Mo).",
+    "fileRequired": "Veuillez télécharger au moins un rapport médical.",
+    "fileSizeError": "Chaque fichier doit faire moins de 10 Mo.",
+    "fileTypeError": "Format de fichier non pris en charge. Veuillez télécharger du PDF, JPG, PNG ou ZIP."
   },
   "Upload": {
     "title": "Télécharger des rapports médicaux (facultatif)",
