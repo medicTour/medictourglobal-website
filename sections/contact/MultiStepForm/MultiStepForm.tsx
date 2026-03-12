@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -29,6 +29,26 @@ const step3Schema = z.object({
   visitedBefore: z.enum(["yes", "no"], { message: "visitedRequired" }),
   companion: z.enum(["yes", "no"], { message: "companionRequired" }),
   additionalMessage: z.string().optional(),
+  // File validation: at least one file required, max size 10MB, allowed types
+  files: z
+    .any()
+    .refine((val) => val instanceof FileList && val.length > 0, { message: "fileRequired" })
+    .refine(
+      (val) => {
+        if (!(val instanceof FileList)) return false;
+        return Array.from(val).every((f: File) => f.size <= 10 * 1024 * 1024);
+      },
+      { message: "fileSizeError" }
+    )
+    .refine(
+      (val) => {
+        if (!(val instanceof FileList)) return false;
+        return Array.from(val).every((f: File) =>
+          ["application/pdf", "image/jpeg", "image/png", "application/zip"].includes(f.type)
+        );
+      },
+      { message: "fileTypeError" }
+    ),
 });
 
 // Combined schema for final validation
@@ -38,6 +58,7 @@ type FormData = z.infer<typeof fullSchema>;
 
 export default function MultiStepForm() {
   const t = useTranslations("Form");
+  const locale = useLocale();
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -48,16 +69,23 @@ export default function MultiStepForm() {
     handleSubmit,
     formState: { errors },
     trigger,
-    getValues,
+    setValue,
+    watch,
   } = useForm<FormData>({
     resolver: zodResolver(fullSchema),
     mode: "onBlur",
   });
 
+  const files = watch("files") as FileList | undefined;
+
   const nextStep = async () => {
     let isValid = false;
-    if (step === 1) isValid = await trigger(["fullName", "email", "phone", "country", "age", "gender"]);
-    if (step === 2) isValid = await trigger(["treatment", "condition"]);
+    if (step === 1) {
+      isValid = await trigger(["fullName", "email", "phone", "country", "age", "gender"]);
+    }
+    if (step === 2) {
+      isValid = await trigger(["treatment", "condition"]);
+    }
     if (isValid) setStep((s) => s + 1);
   };
 
@@ -66,11 +94,26 @@ export default function MultiStepForm() {
   const onSubmit: SubmitHandler<FormData> = async (data) => {
     setLoading(true);
     setSubmitError("");
+
+    // Create FormData
+    const formData = new FormData();
+    Object.entries(data).forEach(([key, value]) => {
+      if (key === "files") {
+        // Append each file individually
+        Array.from(data.files as FileList).forEach((file) => {
+          formData.append("files", file);
+        });
+      } else {
+        formData.append(key, String(value));
+      }
+    });
+    // Append the current locale for the auto‑reply email
+    formData.append("locale", locale);
+
     try {
       const res = await fetch("/api/inquiry", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: formData,
       });
       if (!res.ok) throw new Error("serverError");
       setSubmitSuccess(true);
@@ -86,7 +129,7 @@ export default function MultiStepForm() {
       <div className={styles.success}>
         <h2>{t("successTitle")}</h2>
         <p>{t("successMessage")}</p>
-        <button onClick={() => window.location.href = "/"} className={styles.button}>
+        <button onClick={() => (window.location.href = "/")} className={styles.button}>
           {t("returnHome")}
         </button>
       </div>
@@ -111,28 +154,28 @@ export default function MultiStepForm() {
               <div className={styles.field}>
                 <label>{t("fullName")}*</label>
                 <input {...register("fullName")} />
-                {errors.fullName && <span className={styles.error}>{t(errors.fullName.message)}</span>}
+                {errors.fullName && <span className={styles.error}>{t(errors.fullName.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("email")}*</label>
                 <input type="email" {...register("email")} />
-                {errors.email && <span className={styles.error}>{t(errors.email.message)}</span>}
+                {errors.email && <span className={styles.error}>{t(errors.email.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("phone")}*</label>
                 <input {...register("phone")} />
-                {errors.phone && <span className={styles.error}>{t(errors.phone.message)}</span>}
+                {errors.phone && <span className={styles.error}>{t(errors.phone.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("country")}*</label>
                 <input {...register("country")} />
-                {errors.country && <span className={styles.error}>{t(errors.country.message)}</span>}
+                {errors.country && <span className={styles.error}>{t(errors.country.message as string)}</span>}
               </div>
               <div className={styles.row}>
                 <div className={styles.field}>
                   <label>{t("age")}*</label>
                   <input type="number" {...register("age")} />
-                  {errors.age && <span className={styles.error}>{t(errors.age.message)}</span>}
+                  {errors.age && <span className={styles.error}>{t(errors.age.message as string)}</span>}
                 </div>
                 <div className={styles.field}>
                   <label>{t("gender")}*</label>
@@ -142,7 +185,7 @@ export default function MultiStepForm() {
                     <option value="female">{t("female")}</option>
                     <option value="other">{t("other")}</option>
                   </select>
-                  {errors.gender && <span className={styles.error}>{t(errors.gender.message)}</span>}
+                  {errors.gender && <span className={styles.error}>{t(errors.gender.message as string)}</span>}
                 </div>
               </div>
             </div>
@@ -163,12 +206,12 @@ export default function MultiStepForm() {
                   <option value="Organ Transplant">{t("transplant")}</option>
                   <option value="Other">{t("other")}</option>
                 </select>
-                {errors.treatment && <span className={styles.error}>{t(errors.treatment.message)}</span>}
+                {errors.treatment && <span className={styles.error}>{t(errors.treatment.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("condition")}*</label>
                 <textarea rows={4} {...register("condition")} />
-                {errors.condition && <span className={styles.error}>{t(errors.condition.message)}</span>}
+                {errors.condition && <span className={styles.error}>{t(errors.condition.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("previousDiagnosis")}</label>
@@ -192,7 +235,7 @@ export default function MultiStepForm() {
                   <option value="Within 3 months">{t("within3")}</option>
                   <option value="Just exploring options">{t("exploring")}</option>
                 </select>
-                {errors.timeline && <span className={styles.error}>{t(errors.timeline.message)}</span>}
+                {errors.timeline && <span className={styles.error}>{t(errors.timeline.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("visitedBefore")}*</label>
@@ -201,7 +244,7 @@ export default function MultiStepForm() {
                   <option value="yes">{t("yes")}</option>
                   <option value="no">{t("no")}</option>
                 </select>
-                {errors.visitedBefore && <span className={styles.error}>{t(errors.visitedBefore.message)}</span>}
+                {errors.visitedBefore && <span className={styles.error}>{t(errors.visitedBefore.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("companion")}*</label>
@@ -210,11 +253,41 @@ export default function MultiStepForm() {
                   <option value="yes">{t("yes")}</option>
                   <option value="no">{t("no")}</option>
                 </select>
-                {errors.companion && <span className={styles.error}>{t(errors.companion.message)}</span>}
+                {errors.companion && <span className={styles.error}>{t(errors.companion.message as string)}</span>}
               </div>
               <div className={styles.field}>
                 <label>{t("additionalMessage")}</label>
                 <textarea rows={3} {...register("additionalMessage")} />
+              </div>
+
+              {/* File Upload Field (Mandatory) */}
+              <div className={styles.field}>
+                <label>{t("uploadTitle")}*</label>
+                <input
+                  type="file"
+                  multiple
+                  accept=".pdf,.jpg,.jpeg,.png,.zip"
+                  onChange={(e) => {
+                    const fileList = e.target.files;
+                    if (fileList && fileList.length > 0) {
+                      setValue("files", fileList, { shouldValidate: true });
+                    } else {
+                      // If no files selected, set to undefined (clear the field)
+                      setValue("files", undefined, { shouldValidate: true });
+                    }
+                  }}
+                />
+                <p className={styles.hint}>{t("uploadInfo")}</p>
+                {errors.files && (
+                  <span className={styles.error}>{t(errors.files.message as string)}</span>
+                )}
+                {files && files.length > 0 && (
+                  <ul className={styles.fileList}>
+                    {Array.from(files).map((f, i) => (
+                      <li key={i}>{f.name} ({(f.size / 1024).toFixed(2)} KB)</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           )}
