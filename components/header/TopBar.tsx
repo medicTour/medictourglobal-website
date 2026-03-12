@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import styles from "./header.module.scss";
@@ -47,16 +48,18 @@ export default function TopBar({ scrolled, mobileOpen, toggleMobile }: TopBarPro
     <div className={styles.topBar}>
       <div className={`container ${styles.topContent}`}>
         {/* Logo */}
-        <div className={styles.logo}>
-          <Image
-            src="/images/logo.png"
-            alt="Medictour Global"
-            width={150}
-            height={40}
-            priority
-            style={{ width: "auto", height: "auto" }}
-          />
-        </div>
+        <Link href={`/${locale}`} className={styles.logoLink}>
+          <div className={styles.logo}>
+            <Image
+              src="/images/logo.png"
+              alt="Medictour Global"
+              width={150}
+              height={40}
+              priority
+              style={{ width: "auto", height: "auto" }}
+            />
+          </div>
+        </Link>
 
         {/* Desktop & Mobile contact + language */}
         <div className={styles.topRight}>
@@ -109,9 +112,8 @@ export default function TopBar({ scrolled, mobileOpen, toggleMobile }: TopBarPro
                   <button
                     key={lang}
                     onClick={() => changeLanguage(lang)}
-                    className={`${styles.dropdownItem} ${
-                      locale === lang ? styles.activeLang : ""
-                    }`}
+                    className={`${styles.dropdownItem} ${locale === lang ? styles.activeLang : ""
+                      }`}
                   >
                     <Image src={`/flags/${lang}.png`} alt={lang} width={18} height={12} />
                     {lang.toUpperCase()}
