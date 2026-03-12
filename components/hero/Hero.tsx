@@ -4,13 +4,15 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import styles from "./hero.module.scss";
 
 export default function Hero() {
   const t = useTranslations("Hero");
+  const locale = useLocale();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slides = ["slide1", "slide2", "slide3"];
@@ -105,14 +107,9 @@ export default function Hero() {
                       >
                         {t(`${slide}.subtitle`)}
                       </motion.p>
-                      <motion.a
-                        href="#contact"
-                        variants={itemVariants}
-                        transition={itemTransition}
-                        className={styles.heroButton}
-                      >
+                      <Link href={`/${locale}/contact`} className={styles.heroButton}>
                         {t("cta")}
-                      </motion.a>
+                      </Link>
                     </motion.div>
                   )}
                 </AnimatePresence>
