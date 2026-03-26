@@ -7,7 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import styles from "./header.module.scss";
 
-const WHATSAPP_NUMBER = "919865332222";
+const WHATSAPP_NUMBER = "919895332222";
 const PHONE_NUMBER = "+919895332222";
 const EMAIL = "medictour.global@gmail.com";
 
