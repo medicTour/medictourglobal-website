@@ -927,7 +927,12 @@
     },
     "story": {
       "title": "Our Story",
-      "text": "Many international patients struggle to find reliable medical information and trustworthy hospitals when seeking treatment abroad. Medictour Global was founded to bridge that gap by helping patients connect with experienced doctors and accredited hospitals in India while receiving clear guidance throughout their medical journey."
+      "text": "Many international patients struggle to find reliable medical information and trustworthy hospitals when seeking treatment abroad. Medictour Global was founded to bridge that gap by helping patients connect with experienced doctors and accredited hospitals in India while receiving clear guidance throughout their medical journey.",
+"founder": {
+    "title": "The Vision Behind MedicTour Global",
+    "name": "Akbar P K",
+    "description": "MedicTour Global was established under the leadership of Akbar P K, with a focus on creating a dependable bridge between patients and world-class healthcare in India. With a strong emphasis on transparency, ethical practices, and patient-first decision making, he has shaped the organization to prioritize trust above all. Every step of the journey is designed to ensure patients feel informed, supported, and confident in the care they receive."
+  }
     },
     "mission": {
       "missionTitle": "Our Mission",
