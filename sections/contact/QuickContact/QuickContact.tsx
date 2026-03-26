@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import styles from "./quickContact.module.scss";
 
-const WHATSAPP_NUMBER = "919865332222";
+const WHATSAPP_NUMBER = "919895332222";
 const EMAIL = "medictour.global@gmail.com";
 
 export default function QuickContact() {
