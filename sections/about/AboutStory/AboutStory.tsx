@@ -24,6 +24,19 @@ export default function AboutStory() {
           <div className={styles.textCol}>
             <h2 className={styles.title}>{t("title")}</h2>
             <p className={styles.text}>{t("text")}</p>
+<div className={styles.founderBlock}>
+              <h3 className={styles.founderTitle}>
+                {t("founder.title")}
+              </h3>
+
+              <p className={styles.founderName}>
+                {t("founder.name")}
+              </p>
+
+              <p className={styles.founderText}>
+                {t("founder.description")}
+              </p>
+            </div>
           </div>
         </div>
       </div>
