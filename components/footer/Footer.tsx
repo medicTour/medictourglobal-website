@@ -6,7 +6,7 @@ import Link from "next/link";
 import styles from "./footer.module.scss";
 
 // Contact data (constants)
-const WHATSAPP_NUMBER = "919865332222";
+const WHATSAPP_NUMBER = "919895332222";
 const PHONE_NUMBER = "+919895332222";
 const EMAIL = "medictour.global@gmail.com";
 
