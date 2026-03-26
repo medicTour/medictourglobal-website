@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import styles from "./whatsAppCTA.module.scss";
 
-const WHATSAPP_NUMBER = "919865332222";
+const WHATSAPP_NUMBER = "919895332222";
 
 export default function WhatsAppCTA() {
   const t = useTranslations("WhatsAppCTA");
