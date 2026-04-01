@@ -17,6 +17,9 @@ export const metadata = {
   title: "MedicTour Global | Medical Tourism in India",
   description:
     "MedicTour Global helps international patients access affordable and trusted medical treatment in India with complete support including hospitals, doctors, travel, and recovery care.",
+  verification: {
+    google: "uxs725u42hzXqa57nWfPt2cWwVJoUcfiv0x52ArfN5k",
+  },
 };
 
 export default async function RootLayout({
